@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
 const FALLBACK_DATA = {
   client: { name: "OnDiem", fullName: "OnDiem", period: "Loading..." },
@@ -14,11 +14,145 @@ const FALLBACK_DATA = {
 };
 type RD = typeof FALLBACK_DATA;
 
-const FB_EMBEDS: Record<string, string> = {
-  "https://www.facebook.com/onDiem1/posts/pfbid021wFLMRECG3zjZJhmRVnaonzVu9iXyRYBLR91NpKR56Gah6NMDT7M12hP2jwW6Sktl": "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FonDiem1%2Fposts%2Fpfbid021wFLMRECG3zjZJhmRVnaonzVu9iXyRYBLR91NpKR56Gah6NMDT7M12hP2jwW6Sktl&show_text=false&width=500",
-  "https://www.facebook.com/reel/896269783397716/": "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F896269783397716%2F&show_text=false&width=267&t=0",
+/* ── Facebook embed URL map ── */
+const FB_EMBEDS: Record<string, { src: string; type: "post" | "video" }> = {
+  "https://www.facebook.com/onDiem1/posts/pfbid021wFLMRECG3zjZJhmRVnaonzVu9iXyRYBLR91NpKR56Gah6NMDT7M12hP2jwW6Sktl": {
+    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FonDiem1%2Fposts%2Fpfbid021wFLMRECG3zjZJhmRVnaonzVu9iXyRYBLR91NpKR56Gah6NMDT7M12hP2jwW6Sktl&show_text=true&width=500",
+    type: "post",
+  },
+  "https://www.facebook.com/reel/896269783397716/": {
+    src: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F896269783397716%2F&show_text=false&width=267&t=0",
+    type: "video",
+  },
 };
 
+function getFbEmbed(url: string): { src: string; type: "post" | "video" } | null {
+  if (!url) return null;
+  for (const [key, embed] of Object.entries(FB_EMBEDS)) {
+    if (url.includes(key) || key.includes(url)) return embed;
+  }
+  if (url.includes("facebook.com/plugins/post")) return { src: url, type: "post" };
+  if (url.includes("facebook.com/plugins/video")) return { src: url, type: "video" };
+  return null;
+}
+
+function isIgEmbed(u: string) { return /instagram\.com\/(p|reel)\//i.test(u); }
+function isVideo(u: string) { return /\.(mp4|webm|mov)(\?|$)/i.test(u); }
+
+/* ── Facebook Embed Component ── */
+function FbEmbed({ src, type, title }: { src: string; type: "post" | "video"; title: string }) {
+  const [fbLoaded, setFbLoaded] = useState(false);
+  /*
+   * ROOT CAUSE: Facebook plugin iframes render at fixed internal dimensions:
+   *   - Post plugin: 500px wide, ~690px tall (with text) or ~500px (no text)
+   *   - Video plugin: 267px wide, 476px tall
+   * Setting width/height:100% on the iframe does NOT rescale the internal
+   * FB content — the iframe just gets blank space around the fixed-size widget.
+   * The iframe's internal document has its own layout that ignores the outer size.
+   *
+   * FIX: Render the iframe at its native size, then use CSS transform: scale()
+   * to fill the container. Center with absolute positioning + translate.
+   * This scales the actual rendered pixels to fit — like zooming in.
+   */
+  const nativeW = type === "video" ? 267 : 500;
+  const nativeH = type === "video" ? 476 : 690;
+
+  return (
+    <div
+      className="postcard-fb-embed"
+      style={{
+        position: "relative",
+        width: "100%",
+        height: "100%",
+        overflow: "hidden",
+        background: "#f0f2f5",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+      }}
+    >
+      {/* Loading skeleton */}
+      {!fbLoaded && (
+        <div style={{
+          position: "absolute", inset: 0, display: "flex", flexDirection: "column",
+          alignItems: "center", justifyContent: "center", gap: 12, zIndex: 1,
+          background: "linear-gradient(135deg, #f0f2f5 0%, #e4e6eb 100%)",
+        }}>
+          <div style={{
+            width: 36, height: 36, borderRadius: "50%",
+            border: "3px solid #e4e6eb", borderTopColor: "#2A3B58",
+            animation: "spin 0.8s linear infinite",
+          }} />
+          <span style={{ fontSize: 11, fontWeight: 700, color: "#8694A8", letterSpacing: "0.08em", textTransform: "uppercase" as const }}>
+            Loading Facebook {type}...
+          </span>
+        </div>
+      )}
+      {/*
+       * The iframe is rendered at native FB plugin size, then the parent
+       * container uses a ResizeObserver (via the wrapper below) to calculate
+       * the scale factor needed to fill the 3:4 aspect-ratio card.
+       */}
+      <FbIframeScaler nativeW={nativeW} nativeH={nativeH}>
+        <iframe
+          src={src}
+          title={title}
+          width={nativeW}
+          height={nativeH}
+          scrolling="no"
+          frameBorder="0"
+          allowFullScreen
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+          onLoad={() => setFbLoaded(true)}
+          style={{
+            border: "none",
+            overflow: "hidden",
+            display: "block",
+          }}
+        />
+      </FbIframeScaler>
+    </div>
+  );
+}
+
+/* Scales the FB iframe to fill its parent container */
+function FbIframeScaler({ nativeW, nativeH, children }: { nativeW: number; nativeH: number; children: React.ReactNode }) {
+  const outerRef = useRef<HTMLDivElement>(null);
+  const [scale, setScale] = useState(1);
+
+  useEffect(() => {
+    const el = outerRef.current;
+    if (!el) return;
+    const update = () => {
+      const containerW = el.clientWidth;
+      const containerH = el.clientHeight;
+      if (containerW === 0 || containerH === 0) return;
+      /* Scale to COVER the container (like object-fit: cover) */
+      const scaleX = containerW / nativeW;
+      const scaleY = containerH / nativeH;
+      setScale(Math.max(scaleX, scaleY));
+    };
+    update();
+    const ro = new ResizeObserver(update);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, [nativeW, nativeH]);
+
+  return (
+    <div ref={outerRef} style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center", overflow: "hidden" }}>
+      <div style={{
+        transform: "scale(" + scale + ")",
+        transformOrigin: "center center",
+        flexShrink: 0,
+        lineHeight: 0,
+      }}>
+        {children}
+      </div>
+    </div>
+  );
+}
+
+/* ── Insight Engine ── */
 function genInsights(d: RD) {
   const ins: { title: string; body: string; severity: string }[] = [];
   const opps: typeof ins = [];
@@ -57,19 +191,7 @@ function Donut({ data, size = 130, stroke = 18, colors }: { data: { value: numbe
   return (<svg width={size} height={size} viewBox={"0 0 " + size + " " + size} style={{ transform: "rotate(-90deg)" }}>{data.map((d, i) => { const dash = (d.value / total) * C, gap = C - dash, o = off; off += dash; return <circle key={i} cx={size/2} cy={size/2} r={r} fill="none" stroke={colors[i]} strokeWidth={stroke} strokeDasharray={dash + " " + gap} strokeDashoffset={-o} strokeLinecap="round" style={{ transition: "all 1.2s cubic-bezier(.4,0,.2,1)" }} />; })}</svg>);
 }
 
-function getEmbedUrl(url: string): string | null {
-  if (!url) return null;
-  for (const [key, embed] of Object.entries(FB_EMBEDS)) {
-    if (url.includes(key) || key.includes(url)) return embed;
-  }
-  if (url.includes("facebook.com/plugins/")) return url;
-  return null;
-}
-
-function isIgEmbed(u: string) { return /instagram\.com\/(p|reel)\//i.test(u); }
-function isFbUrl(u: string) { return /facebook\.com/i.test(u); }
-function isVideo(u: string) { return /\.(mp4|webm|mov)(\?|$)/i.test(u); }
-
+/* ── Main Dashboard ── */
 export default function Dashboard() {
   const [tab, setTab] = useState("instagram");
   const [loaded, setLoaded] = useState(false);
@@ -108,9 +230,8 @@ export default function Dashboard() {
   function PostCard({ p, maxViews }: { p: any; maxViews: number }) {
     const url = mediaUrls[p.id];
     const isEd = editingMedia === p.id;
-    const fbEmbed = url ? getEmbedUrl(url) : null;
+    const fbEmbedData = url ? getFbEmbed(url) : null;
     const igEmbed = url ? isIgEmbed(url) : false;
-    const hasEmbed = !!(fbEmbed || igEmbed);
 
     return (
       <div className={"postcard " + (p.isTop ? "postcard-top" : "")}>
@@ -123,8 +244,8 @@ export default function Dashboard() {
             <div className="postcard-media-filled">
               {igEmbed ? (
                 <div className="postcard-ig-crop"><iframe src={url.replace(/\/?(\?.*)?$/, "/embed")} title={p.title} scrolling="no" allowFullScreen /></div>
-              ) : fbEmbed ? (
-                <div className="postcard-fb-embed"><iframe src={fbEmbed} title={p.title} scrolling="no" frameBorder="0" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" /></div>
+              ) : fbEmbedData ? (
+                <FbEmbed src={fbEmbedData.src} type={fbEmbedData.type} title={p.title} />
               ) : isVideo(url) ? (
                 <video controls playsInline><source src={url} /></video>
               ) : (
@@ -160,7 +281,7 @@ export default function Dashboard() {
 
       <div className="grid">
 
-        {/* INSTAGRAM TAB */}
+        {/* ── INSTAGRAM ── */}
         {tab === "instagram" && (<>
           <div className="kpi-row">
             {[
@@ -173,8 +294,8 @@ export default function Dashboard() {
           </div>
           <div className="exec"><div className="card-hd">Instagram Summary</div><div className="exec-cols">
             <div><div className="exec-col-title">Growth</div><div className="exec-col-body">+{d.ig.newFollowers} new followers this week bringing the total to {d.ig.followers.toLocaleString()}. Steady organic growth in the dental staffing community.</div></div>
-            <div><div className="exec-col-title">Content</div><div className="exec-col-body">Content mix is {d.contentMix.posts}% Posts, {d.contentMix.reels}% Reels, {d.contentMix.stories}% Stories. Event coverage (Hinman Meeting) generated the highest engagement this week.</div></div>
-            <div><div className="exec-col-title">Engagement</div><div className="exec-col-body">{d.ig.er}% rate with {d.ig.engagements} total interactions. Saves remain the critical gap — focus on creating bookmark-worthy career content.</div></div>
+            <div><div className="exec-col-title">Content</div><div className="exec-col-body">Content mix is {d.contentMix.posts}% Posts, {d.contentMix.reels}% Reels, {d.contentMix.stories}% Stories. Event coverage (Hinman Meeting) generated the highest engagement.</div></div>
+            <div><div className="exec-col-title">Engagement</div><div className="exec-col-body">{d.ig.er}% rate with {d.ig.engagements} total interactions. Saves remain the critical gap — focus on bookmark-worthy career content.</div></div>
           </div></div>
           <div className="cols2">
             <div className="card"><div className="card-hd">Content Mix</div><div style={{ display: "flex", alignItems: "center", gap: 28 }}><Donut data={[{ value: d.contentMix.posts },{ value: d.contentMix.reels },{ value: d.contentMix.stories }]} colors={["#2A3B58","#7FCFD1","#F189B5"]} size={120} stroke={18} /><div style={{ flex: 1 }}>{[{ label: "Posts", value: d.contentMix.posts, color: "#2A3B58" },{ label: "Reels", value: d.contentMix.reels, color: "#7FCFD1" },{ label: "Stories", value: d.contentMix.stories, color: "#F189B5" }].map(item => (<div key={item.label} style={{ display: "flex", alignItems: "center", gap: 10, padding: "7px 0" }}><div style={{ width: 10, height: 10, borderRadius: 3, background: item.color }} /><span style={{ flex: 1, fontSize: 14, fontWeight: 600 }}>{item.label}</span><span className="display-num">{item.value}%</span></div>))}</div></div></div>
@@ -187,7 +308,7 @@ export default function Dashboard() {
           {engine.alerts.length > 0 && <div>{engine.alerts.map((a, i) => <IC key={i} {...a} />)}</div>}
         </>)}
 
-        {/* FACEBOOK TAB */}
+        {/* ── FACEBOOK ── */}
         {tab === "facebook" && (<>
           <div className="kpi-row">
             {[
@@ -201,7 +322,7 @@ export default function Dashboard() {
           <div className="exec"><div className="card-hd">Facebook Summary</div><div className="exec-cols">
             <div><div className="exec-col-title">Visibility</div><div className="exec-col-body">{d.fb.views} page views from {d.fb.viewers} unique viewers. {d.fb.visits} page visits indicate active discovery of the OnDiem Facebook page.</div></div>
             <div><div className="exec-col-title">Content</div><div className="exec-col-body">{d.fbContentMix.stories + d.fbContentMix.photos + d.fbContentMix.reels} items published: {d.fbContentMix.stories} Stories, {d.fbContentMix.photos} Photo{d.fbContentMix.photos !== 1 ? "s" : ""}, {d.fbContentMix.reels} Reel. Stories dominate the publishing cadence.</div></div>
-            <div><div className="exec-col-title">Engagement</div><div className="exec-col-body">{d.fb.interactions} content interactions. The Women in DSO post led with 33 total clicks and 11 reactions — event and community content outperforms on Facebook.</div></div>
+            <div><div className="exec-col-title">Engagement</div><div className="exec-col-body">{d.fb.interactions} content interactions. The Women in DSO post led with 33 total clicks and 11 reactions — event content outperforms on Facebook.</div></div>
           </div></div>
           <div className="cols2">
             <div className="card"><div className="card-hd">Published Content</div><div style={{ display: "flex", alignItems: "center", gap: 28 }}><Donut data={[{ value: d.fbContentMix.stories },{ value: d.fbContentMix.photos },{ value: d.fbContentMix.reels }]} colors={["#F189B5","#F9B78E","#7FCFD1"]} size={120} stroke={18} /><div style={{ flex: 1 }}>{[{ label: "Stories", value: d.fbContentMix.stories, color: "#F189B5" },{ label: "Photos", value: d.fbContentMix.photos, color: "#F9B78E" },{ label: "Reels", value: d.fbContentMix.reels, color: "#7FCFD1" }].map(item => (<div key={item.label} style={{ display: "flex", alignItems: "center", gap: 10, padding: "7px 0" }}><div style={{ width: 10, height: 10, borderRadius: 3, background: item.color }} /><span style={{ flex: 1, fontSize: 14, fontWeight: 600 }}>{item.label}</span><span className="display-num">{item.value}</span></div>))}</div></div></div>
@@ -213,7 +334,7 @@ export default function Dashboard() {
           </div>
         </>)}
 
-        {/* AUDIENCE TAB */}
+        {/* ── AUDIENCE ── */}
         {tab === "audience" && (<>
           <div className="cols2">
             <div className="card"><div className="card-hd">Gender Split (Instagram)</div><div style={{ display: "flex", alignItems: "center", gap: 28 }}><Donut data={[{ value: d.audience.gender.female },{ value: d.audience.gender.male }]} colors={["#F189B5","#2A3B58"]} size={130} stroke={20} /><div style={{ flex: 1 }}>{[{ l: "Female", v: d.audience.gender.female, c: "#F189B5" },{ l: "Male", v: d.audience.gender.male, c: "#2A3B58" }].map(g => (<div key={g.l} style={{ display: "flex", alignItems: "center", gap: 12, padding: "10px 0" }}><div style={{ width: 12, height: 12, borderRadius: 4, background: g.c }} /><span style={{ flex: 1, fontSize: 15, fontWeight: 600 }}>{g.l}</span><span className="display-num-lg">{g.v}%</span></div>))}</div></div></div>
@@ -225,7 +346,7 @@ export default function Dashboard() {
           </div>
         </>)}
 
-        {/* INSIGHTS TAB */}
+        {/* ── INSIGHTS ── */}
         {tab === "insights" && (<>
           <div className="cols2">
             <div><div className="section-label">Key Insights</div>{engine.ins.map((x, i) => <IC key={i} {...x} />)}</div>
