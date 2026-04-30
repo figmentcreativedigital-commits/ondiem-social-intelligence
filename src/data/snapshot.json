@@ -1,0 +1,3034 @@
+{
+  "generatedAt": "2026-04-30T14:23:55.115785Z",
+  "periodEnd": "2026-04-28",
+  "channels": {
+    "facebook": {
+      "365d": {
+        "kpis": {
+          "totalPosts": 22,
+          "totalViews": 7212,
+          "totalReach": 4793,
+          "totalReactions": 116,
+          "totalComments": 20,
+          "totalShares": 7,
+          "totalEngagements": 143,
+          "totalClicks": 191,
+          "totalLinkClicks": 8,
+          "avgEngagementRate": 2.98,
+          "postTypeMix": {
+            "Photos": 15,
+            "Videos": 7
+          }
+        },
+        "series": [
+          {
+            "date": "2025-07-14",
+            "views": 216,
+            "reach": 181,
+            "engagements": 3,
+            "posts": 1
+          },
+          {
+            "date": "2025-09-01",
+            "views": 1202,
+            "reach": 781,
+            "engagements": 21,
+            "posts": 3
+          },
+          {
+            "date": "2025-09-29",
+            "views": 174,
+            "reach": 120,
+            "engagements": 1,
+            "posts": 1
+          },
+          {
+            "date": "2025-10-06",
+            "views": 2296,
+            "reach": 1349,
+            "engagements": 60,
+            "posts": 4
+          },
+          {
+            "date": "2025-10-20",
+            "views": 588,
+            "reach": 360,
+            "engagements": 5,
+            "posts": 3
+          },
+          {
+            "date": "2025-10-27",
+            "views": 461,
+            "reach": 257,
+            "engagements": 5,
+            "posts": 1
+          },
+          {
+            "date": "2025-11-10",
+            "views": 1,
+            "reach": 1,
+            "engagements": 2,
+            "posts": 1
+          },
+          {
+            "date": "2026-03-02",
+            "views": 131,
+            "reach": 112,
+            "engagements": 7,
+            "posts": 1
+          },
+          {
+            "date": "2026-03-09",
+            "views": 642,
+            "reach": 429,
+            "engagements": 13,
+            "posts": 1
+          },
+          {
+            "date": "2026-03-16",
+            "views": 801,
+            "reach": 752,
+            "engagements": 11,
+            "posts": 2
+          },
+          {
+            "date": "2026-03-23",
+            "views": 196,
+            "reach": 120,
+            "engagements": 2,
+            "posts": 1
+          },
+          {
+            "date": "2026-04-06",
+            "views": 336,
+            "reach": 203,
+            "engagements": 10,
+            "posts": 2
+          },
+          {
+            "date": "2026-04-20",
+            "views": 168,
+            "reach": 128,
+            "engagements": 3,
+            "posts": 1
+          }
+        ],
+        "topPosts": [
+          {
+            "date": "2026-04-10",
+            "caption": "Happy Dental Hygienist Week \ud83e\uddb7\ud83e\ude75 We know there\u2019s so much that goes into what you do every day, and it doesn\u2019t go unnoticed. We appreciate you and all that you do! #dentalhygienistweek #dentalhygienist #dentalhygienists #dentalhygienistlife #dentalsta",
+            "link": "https://www.facebook.com/reel/825319750003708/",
+            "postType": "Videos",
+            "views": 196,
+            "reach": 118,
+            "reactions": 7,
+            "comments": 1,
+            "shares": 1,
+            "totalClicks": 0,
+            "engRate": 7.63
+          },
+          {
+            "date": "2026-03-05",
+            "caption": "This week we recognize the dental assistants who keep practices running and patients cared for every day. Your skill, organization, and compassion are essential to the entire dental team. Happy Dental Assistants Recognition Week! \ud83e\uddb7\ud83d\udc9c #dentalassista",
+            "link": "https://www.facebook.com/reel/896269783397716/",
+            "postType": "Videos",
+            "views": 131,
+            "reach": 112,
+            "reactions": 5,
+            "comments": 2,
+            "shares": 0,
+            "totalClicks": 6,
+            "engRate": 6.25
+          },
+          {
+            "date": "2025-10-07",
+            "caption": "What an amazing time at the @youradha conference! Our team attended the ADHA 2025 Annual Conference in Long Beach, California, from October 4th-6th! Some highlights: \u2022 Andrea Johnson\u2019s Crest Oral-b breakfast session with Katherine Eitel-attendees",
+            "link": "https://www.facebook.com/onDiem1/posts/pfbid0sQf6FmJ9LEXaNhUmAb1TXeMfbbQhhbGU7AgncWYUxhXWfLccytJVcqMnJDNp3JNXl",
+            "postType": "Photos",
+            "views": 1638,
+            "reach": 896,
+            "reactions": 34,
+            "comments": 11,
+            "shares": 2,
+            "totalClicks": 79,
+            "engRate": 5.25
+          },
+          {
+            "date": "2025-10-08",
+            "caption": "onDiem updated their profile picture.",
+            "link": "https://www.facebook.com/photo.php?fbid=1327253885860491&set=a.525957365990151&type=3",
+            "postType": "Photos",
+            "views": 206,
+            "reach": 146,
+            "reactions": 5,
+            "comments": 0,
+            "shares": 0,
+            "totalClicks": 1,
+            "engRate": 3.42
+          },
+          {
+            "date": "2025-09-02",
+            "caption": "\ud83c\udf89 Celebrating Office Managers at AADOM \ud83c\udf89 As the AADOM Conference kicks off this week, we\u2019re recognizing the office managers who keep dental practices running every day. At onDiem, we know how much you juggle and we\u2019re here to make staffing simpler:",
+            "link": "https://www.facebook.com/onDiem1/posts/pfbid046KKkvZYLHRRMG4kuewJYQZ5DGoX1Xsj8vFwKSoi2D21miTJ7s9b8VULnDM9gw9Ll",
+            "postType": "Photos",
+            "views": 590,
+            "reach": 377,
+            "reactions": 9,
+            "comments": 1,
+            "shares": 2,
+            "totalClicks": 4,
+            "engRate": 3.18
+          },
+          {
+            "date": "2026-03-09",
+            "caption": "Women in DSO was full of great conversations, new connections, and familiar faces. Our very own Patty Farmer was in attendance, spreading the word about how onDiem helps practices find reliable staffing while giving dental professionals more flexibi",
+            "link": "https://www.facebook.com/onDiem1/posts/pfbid035qSdrv1RJMLRxViB7z1Nj7Rag76BifBFa3dSNNcoag7k5ZNBJLedZm94pbKz7yShl",
+            "postType": "Photos",
+            "views": 642,
+            "reach": 429,
+            "reactions": 11,
+            "comments": 2,
+            "shares": 0,
+            "totalClicks": 33,
+            "engRate": 3.03
+          },
+          {
+            "date": "2025-10-21",
+            "caption": "Strategic partnerships are everything! The ADHA Industry Relations Council members work alongside ADHA and with each other to elevate the profession, expand the workforce, and improve lives through advances in education, technology and practice solu",
+            "link": "https://www.facebook.com/onDiem1/posts/pfbid02CkMX3NBLcipCTXU3tBPkMzeGhA4eBbnLdardsCsrsuDJnFXLQUVXSzFEhjbeyBD6l",
+            "postType": "Photos",
+            "views": 191,
+            "reach": 118,
+            "reactions": 3,
+            "comments": 0,
+            "shares": 0,
+            "totalClicks": 3,
+            "engRate": 2.54
+          },
+          {
+            "date": "2025-09-05",
+            "caption": "\ud83c\udf89 Celebrating Office Managers at AADOM! \ud83c\udf89 You keep the practice running. We keep your staffing stress-free. Stop by and Catch Kyle Zak if you can. He\u2019s somewhere on the conference floor with a few tricks (and maybe some swag) up his sparkly sleeve",
+            "link": "https://www.facebook.com/onDiem1/posts/pfbid02DmDcwNLmAhhTS4RH5g7MVUkZxYYBZBToTp7g9PUuYQ7iJkHKcBSMzFjQyFW6Bxe5l",
+            "postType": "Photos",
+            "views": 457,
+            "reach": 288,
+            "reactions": 7,
+            "comments": 0,
+            "shares": 0,
+            "totalClicks": 7,
+            "engRate": 2.43
+          },
+          {
+            "date": "2026-04-24",
+            "caption": "Short staffed? We\u2019ve got you. \ud83e\udd1d Call-outs, schedule gaps, last-minute scrambles\u2026 it happens. onDiem connects you with qualified and pre-vetted dental professionals. Learn more at the link in our bio! \ud83e\uddb7 #dentalassistant #dentalhygienist #dentaljob",
+            "link": "https://www.facebook.com/onDiem1/posts/pfbid0sQz6QNZU7nm7y7VpjZb6jPh8Jd6sn41zHgbiVEYSwCLb6efuwtF1hx2UWdrzZahCl",
+            "postType": "Photos",
+            "views": 168,
+            "reach": 128,
+            "reactions": 2,
+            "comments": 0,
+            "shares": 1,
+            "totalClicks": 3,
+            "engRate": 2.34
+          },
+          {
+            "date": "2025-10-28",
+            "caption": "The ADA SmileCon Conference isn\u2019t just for doctors \u2014 it\u2019s a true team-building experience offering continuing education for everyone in the dental field. onDiem was at the ADA networking with doctors to let them know about the pool of qualified lic",
+            "link": "https://www.facebook.com/onDiem1/posts/pfbid0eCsn2f6Tc8S6pfH6EWUtWSh8aqAEHHXSXiPNkJgkRvLWWQ7q28nWVqQehyWKYCrcl",
+            "postType": "Photos",
+            "views": 461,
+            "reach": 257,
+            "reactions": 5,
+            "comments": 0,
+            "shares": 0,
+            "totalClicks": 19,
+            "engRate": 1.95
+          }
+        ],
+        "contentFormats": {
+          "interactions": {
+            "Stories": 211,
+            "Multi photo": 74,
+            "Photo": 38,
+            "Reels": 30,
+            "Others": 19,
+            "Links": 6,
+            "Text": 4
+          },
+          "views": {
+            "Links": 70083,
+            "Stories": 4568,
+            "Photo": 4499,
+            "Multi photo": 3676,
+            "Reels": 2123,
+            "Others": 792,
+            "Text": 58,
+            "Multi media": 10
+          },
+          "published": {
+            "Photos": 15,
+            "Stories": 9,
+            "Reels": 7
+          }
+        }
+      },
+      "30d": {
+        "kpis": {
+          "totalPosts": 4,
+          "totalViews": 700,
+          "totalReach": 451,
+          "totalReactions": 11,
+          "totalComments": 2,
+          "totalShares": 2,
+          "totalEngagements": 15,
+          "totalClicks": 4,
+          "totalLinkClicks": 0,
+          "avgEngagementRate": 3.33,
+          "postTypeMix": {
+            "Photos": 2,
+            "Videos": 2
+          }
+        },
+        "series": [
+          {
+            "date": "2026-03-27",
+            "views": 196,
+            "reach": 120,
+            "engagements": 2,
+            "posts": 1
+          },
+          {
+            "date": "2026-04-10",
+            "views": 196,
+            "reach": 118,
+            "engagements": 9,
+            "posts": 1
+          },
+          {
+            "date": "2026-04-11",
+            "views": 140,
+            "reach": 85,
+            "engagements": 1,
+            "posts": 1
+          },
+          {
+            "date": "2026-04-24",
+            "views": 168,
+            "reach": 128,
+            "engagements": 3,
+            "posts": 1
+          }
+        ],
+        "topPosts": [
+          {
+            "date": "2026-04-10",
+            "caption": "Happy Dental Hygienist Week \ud83e\uddb7\ud83e\ude75 We know there\u2019s so much that goes into what you do every day, and it doesn\u2019t go unnoticed. We appreciate you and all that you do! #dentalhygienistweek #dentalhygienist #dentalhygienists #dentalhygienistlife #dentalsta",
+            "link": "https://www.facebook.com/reel/825319750003708/",
+            "postType": "Videos",
+            "views": 196,
+            "reach": 118,
+            "reactions": 7,
+            "comments": 1,
+            "shares": 1,
+            "totalClicks": 0,
+            "engRate": 7.63
+          },
+          {
+            "date": "2026-04-24",
+            "caption": "Short staffed? We\u2019ve got you. \ud83e\udd1d Call-outs, schedule gaps, last-minute scrambles\u2026 it happens. onDiem connects you with qualified and pre-vetted dental professionals. Learn more at the link in our bio! \ud83e\uddb7 #dentalassistant #dentalhygienist #dentaljob",
+            "link": "https://www.facebook.com/onDiem1/posts/pfbid0sQz6QNZU7nm7y7VpjZb6jPh8Jd6sn41zHgbiVEYSwCLb6efuwtF1hx2UWdrzZahCl",
+            "postType": "Photos",
+            "views": 168,
+            "reach": 128,
+            "reactions": 2,
+            "comments": 0,
+            "shares": 1,
+            "totalClicks": 3,
+            "engRate": 2.34
+          },
+          {
+            "date": "2026-03-27",
+            "caption": "Temping gives dental pros the flexibility to build a schedule that works for them, not the other way around. And for a lot of people, that\u2019s a game changer. If you\u2019ve been thinking about temping, onDiem makes it easy to pick up shifts, explore new o",
+            "link": "https://www.facebook.com/onDiem1/posts/pfbid032qadsW7KB7JyGB4jyg8agEq7EQgCt3t7Yp3YqQFd9N73i5jumWZML8Zw1AmkAf6sl",
+            "postType": "Photos",
+            "views": 196,
+            "reach": 120,
+            "reactions": 1,
+            "comments": 1,
+            "shares": 0,
+            "totalClicks": 1,
+            "engRate": 1.67
+          },
+          {
+            "date": "2026-04-11",
+            "caption": "Burnt out? We\u2019ve got you. \ud83e\ude75 If your schedule isn\u2019t working for you, onDiem lets you choose when and where you work so you can finally have some balance again. Work that works for you \ud83e\uddb7\u2728 #dentalhygienist #dentalassistant #rdh #dentaljobs #dentalass",
+            "link": "https://www.facebook.com/reel/3233995420232330/",
+            "postType": "Videos",
+            "views": 140,
+            "reach": 85,
+            "reactions": 1,
+            "comments": 0,
+            "shares": 0,
+            "totalClicks": 0,
+            "engRate": 1.18
+          }
+        ]
+      }
+    },
+    "instagram": {
+      "365d": {
+        "kpis": {
+          "totalFollowers": 3061,
+          "followerChange": 152,
+          "totalViews": 53692,
+          "totalReach": 28315,
+          "totalPosts": 68,
+          "totalEngagements": 761,
+          "totalLikes": 687,
+          "totalComments": 30,
+          "totalSaves": 26,
+          "totalShares": 74,
+          "avgEngagementRate": 1.42,
+          "mediaMix": {
+            "image": 33,
+            "carousel": 24,
+            "video": 11
+          }
+        },
+        "series": [
+          {
+            "date": "2025-09-16",
+            "followers": 2914,
+            "views": 0,
+            "reach": 0
+          },
+          {
+            "date": "2025-09-23",
+            "followers": 2945,
+            "views": 1984,
+            "reach": 65
+          },
+          {
+            "date": "2025-09-30",
+            "followers": 2986,
+            "views": 2055,
+            "reach": 21
+          },
+          {
+            "date": "2025-10-07",
+            "followers": 2995,
+            "views": 594,
+            "reach": 53
+          },
+          {
+            "date": "2025-10-14",
+            "followers": 2995,
+            "views": 389,
+            "reach": 6
+          },
+          {
+            "date": "2025-10-21",
+            "followers": 3002,
+            "views": 978,
+            "reach": 64
+          },
+          {
+            "date": "2025-10-28",
+            "followers": 3005,
+            "views": 0,
+            "reach": 0
+          },
+          {
+            "date": "2025-11-04",
+            "followers": 3001,
+            "views": 153,
+            "reach": 2
+          },
+          {
+            "date": "2025-11-11",
+            "followers": 3003,
+            "views": 87,
+            "reach": 2
+          },
+          {
+            "date": "2025-11-18",
+            "followers": 3003,
+            "views": 2017,
+            "reach": 379
+          },
+          {
+            "date": "2025-11-25",
+            "followers": 2998,
+            "views": 1273,
+            "reach": 53
+          },
+          {
+            "date": "2025-12-02",
+            "followers": 2996,
+            "views": 302,
+            "reach": 3
+          },
+          {
+            "date": "2025-12-09",
+            "followers": 2995,
+            "views": 0,
+            "reach": 0
+          },
+          {
+            "date": "2025-12-16",
+            "followers": 3002,
+            "views": 0,
+            "reach": 0
+          },
+          {
+            "date": "2025-12-23",
+            "followers": 2996,
+            "views": 0,
+            "reach": 0
+          },
+          {
+            "date": "2025-12-30",
+            "followers": 2993,
+            "views": 659,
+            "reach": 68
+          },
+          {
+            "date": "2026-01-06",
+            "followers": 2991,
+            "views": 1105,
+            "reach": 108
+          },
+          {
+            "date": "2026-01-13",
+            "followers": 2990,
+            "views": 717,
+            "reach": 66
+          },
+          {
+            "date": "2026-01-20",
+            "followers": 2993,
+            "views": 372,
+            "reach": 12
+          },
+          {
+            "date": "2026-01-27",
+            "followers": 2989,
+            "views": 341,
+            "reach": 5
+          },
+          {
+            "date": "2026-02-03",
+            "followers": 2987,
+            "views": 102,
+            "reach": 4
+          },
+          {
+            "date": "2026-02-10",
+            "followers": 2984,
+            "views": 114,
+            "reach": 6
+          },
+          {
+            "date": "2026-02-17",
+            "followers": 2981,
+            "views": 1908,
+            "reach": 72
+          },
+          {
+            "date": "2026-02-24",
+            "followers": 2996,
+            "views": 8665,
+            "reach": 10
+          },
+          {
+            "date": "2026-03-03",
+            "followers": 3021,
+            "views": 2548,
+            "reach": 54
+          },
+          {
+            "date": "2026-03-10",
+            "followers": 3032,
+            "views": 4840,
+            "reach": 132
+          },
+          {
+            "date": "2026-03-17",
+            "followers": 3042,
+            "views": 17716,
+            "reach": 219
+          },
+          {
+            "date": "2026-03-24",
+            "followers": 3056,
+            "views": 7522,
+            "reach": 279
+          },
+          {
+            "date": "2026-03-31",
+            "followers": 3066,
+            "views": 3501,
+            "reach": 213
+          },
+          {
+            "date": "2026-04-07",
+            "followers": 3066,
+            "views": 2063,
+            "reach": 103
+          },
+          {
+            "date": "2026-04-14",
+            "followers": 3062,
+            "views": 2342,
+            "reach": 67
+          },
+          {
+            "date": "2026-04-21",
+            "followers": 3060,
+            "views": 2528,
+            "reach": 193
+          }
+        ],
+        "topPosts": [
+          {
+            "date": "2026-02-23",
+            "caption": "That\u2019s a wrap on the Chicago Midwinter Meeting! \u2744\ufe0f\ud83e\uddb7\u2060 \u2060 We loved connecting with dental professionals and practice leaders who are ready to think differently about staffing. Thank you to everyone who stopped by the onDiem and Darby booths! \u2060 \u2060 \ud83d\udc49 Swipe",
+            "link": "https://www.instagram.com/p/DVHN-9XCbpx/",
+            "mediaType": "carousel",
+            "views": 591,
+            "reach": 253,
+            "likes": 20,
+            "comments": 4,
+            "saves": 0,
+            "shares": 1,
+            "engagements": 26,
+            "engRate": 9.9
+          },
+          {
+            "date": "2026-02-02",
+            "caption": "Empowering the dental community, one conversation at a time. \ud83e\udd1d\u2060 \u2060 We\u2019ve just wrapped up a fantastic weekend at the Florida FDAA event in Daytona. It was a privilege to engage with dental assistants from across the state and showcase how onDiem is red",
+            "link": "https://www.instagram.com/p/DURGvFliUJ6/",
+            "mediaType": "carousel",
+            "views": 341,
+            "reach": 147,
+            "likes": 14,
+            "comments": 0,
+            "saves": 0,
+            "shares": 0,
+            "engagements": 14,
+            "engRate": 9.5
+          },
+          {
+            "date": "2025-12-01",
+            "caption": "What a day at the Javits Center! Yesterday\u2019s @gnydm conference was all about energy, ideas, and connection with onDiem was right in the middle of it. From inspiring conversations to unforgettable moments, swipe through to relive the highlights with u",
+            "link": "https://www.instagram.com/p/DRuXRXQjv3T/",
+            "mediaType": "carousel",
+            "views": 183,
+            "reach": 82,
+            "likes": 7,
+            "comments": 0,
+            "saves": 0,
+            "shares": 0,
+            "engagements": 7,
+            "engRate": 9.1
+          },
+          {
+            "date": "2025-10-21",
+            "caption": "Strategic partnerships are everything! The ADHA Industry Relations Council members work alongside ADHA and with each other to elevate the profession, expand the workforce, and improve lives through advances in education, technology and practice solu",
+            "link": "https://www.instagram.com/p/DQFliT1kuRp/",
+            "mediaType": "carousel",
+            "views": 622,
+            "reach": 133,
+            "likes": 12,
+            "comments": 0,
+            "saves": 0,
+            "shares": 0,
+            "engagements": 12,
+            "engRate": 9.0
+          },
+          {
+            "date": "2025-12-02",
+            "caption": "What a time at the @javitscenter! This year\u2019s Greater New York conference was all about energy, ideas, and connection\u2014and onDiem was right in the middle of it. From inspiring conversations to unforgettable moments, swipe through to relive the highlig",
+            "link": "https://www.instagram.com/p/DRxqbKZkUXI/",
+            "mediaType": "carousel",
+            "views": 478,
+            "reach": 146,
+            "likes": 12,
+            "comments": 1,
+            "saves": 0,
+            "shares": 0,
+            "engagements": 13,
+            "engRate": 8.9
+          },
+          {
+            "date": "2025-10-28",
+            "caption": "The ADA SmileCon Conference isn\u2019t just for doctors \u2014 it\u2019s a true team-building experience offering continuing education for everyone in the dental field. onDiem was at the ADA networking with doctors to let them know about the pool of qualified lic",
+            "link": "https://www.instagram.com/p/DQW96__EdyJ/",
+            "mediaType": "carousel",
+            "views": 754,
+            "reach": 215,
+            "likes": 15,
+            "comments": 1,
+            "saves": 0,
+            "shares": 3,
+            "engagements": 19,
+            "engRate": 8.8
+          },
+          {
+            "date": "2026-02-19",
+            "caption": "There\u2019s a lot happening at the Chicago Midwinter Meeting. Let Kyle be your guide and lead you straight to the onDiem booth! \u2728\u2060 \u2060 If you\u2019re looking to take control of your schedule or find the perfect pros for your practice, come say hi.\u2060 \u2060 \ud83d\udccd Find us",
+            "link": "https://www.instagram.com/reel/DU9AcvlDrV1/",
+            "mediaType": "video",
+            "views": 519,
+            "reach": 362,
+            "likes": 26,
+            "comments": 3,
+            "saves": 0,
+            "shares": 0,
+            "engagements": 29,
+            "engRate": 8.0
+          },
+          {
+            "date": "2025-06-25",
+            "caption": "Work where and when you want. Whether you\u2019re picking up extra shifts or building a flexible schedule, onDiem puts you in control. \ud83d\udcbc No contracts \ud83d\udcc5 Your calendar, your call \ud83d\udcb0 Transparent pay upfront Join thousands of dental professionals already",
+            "link": "https://www.instagram.com/p/DLV4gTvNrj9/",
+            "mediaType": "image",
+            "views": 865,
+            "reach": 129,
+            "likes": 8,
+            "comments": 1,
+            "saves": 0,
+            "shares": 1,
+            "engagements": 9,
+            "engRate": 7.8
+          },
+          {
+            "date": "2025-10-07",
+            "caption": "What an amazing time at the @youradha conference! Our team attended the ADHA 2025 Annual Conference in Long Beach, California, from October 4th-6th! Some highlights: \u2022 Andrea Johnson\u2019s Crest Oral-b breakfast session with Katherine Eitel-attendees",
+            "link": "https://www.instagram.com/p/DPg4jacEQUo/",
+            "mediaType": "carousel",
+            "views": 1023,
+            "reach": 243,
+            "likes": 16,
+            "comments": 3,
+            "saves": 0,
+            "shares": 0,
+            "engagements": 19,
+            "engRate": 7.8
+          },
+          {
+            "date": "2026-03-21",
+            "caption": "Feeling the pressure with boards coming up? \ud83d\ude05 You\u2019re not alone. @emilyboge is sharing a few tips to help you feel more prepared, more confident, and a little less overwhelmed heading into exam day \ud83e\uddb7\u2728 Sometimes it just takes a small shift (and a goo",
+            "link": "https://www.instagram.com/reel/DWJ3QyjP6CK/",
+            "mediaType": "video",
+            "views": 1916,
+            "reach": 1466,
+            "likes": 84,
+            "comments": 7,
+            "saves": 2,
+            "shares": 9,
+            "engagements": 93,
+            "engRate": 7.0
+          }
+        ],
+        "snapshot90d": {
+          "views": 45937,
+          "reach": 6158,
+          "interactions": 1318,
+          "accountsEngaged": 798,
+          "totalFollowers": 3055,
+          "profileVisits": 440,
+          "externalLinkTaps": 76,
+          "reelsShareViews": 82.2,
+          "postsShareViews": 10.6,
+          "storiesShareViews": 7.2,
+          "reelsShareInteractions": 81.7,
+          "postsShareInteractions": 18.1,
+          "storiesShareInteractions": 0.2,
+          "followerViewShare": 23.8,
+          "nonFollowerViewShare": 76.2
+        }
+      },
+      "30d": {
+        "kpis": {
+          "totalFollowers": 3061,
+          "followerChange": 7,
+          "totalViews": 4970,
+          "totalReach": 3678,
+          "totalReposts": 0,
+          "totalPosts": 8,
+          "totalEngagements": 29,
+          "totalLikes": 26,
+          "totalComments": 0,
+          "totalSaves": 1,
+          "totalShares": 3,
+          "avgEngagementRate": 0.58,
+          "mediaMix": {
+            "image": 3,
+            "carousel": 3,
+            "video": 2
+          }
+        },
+        "series": [
+          {
+            "date": "2026-03-27",
+            "followers": 3054,
+            "views": 697,
+            "reach": 879
+          },
+          {
+            "date": "2026-03-28",
+            "followers": 3061,
+            "views": 2788,
+            "reach": 730
+          },
+          {
+            "date": "2026-03-29",
+            "followers": 3061,
+            "views": 1706,
+            "reach": 122
+          },
+          {
+            "date": "2026-03-30",
+            "followers": 3064,
+            "views": 801,
+            "reach": 51
+          },
+          {
+            "date": "2026-03-31",
+            "followers": 3065,
+            "views": 697,
+            "reach": 30
+          },
+          {
+            "date": "2026-04-01",
+            "followers": 3065,
+            "views": 359,
+            "reach": 22
+          },
+          {
+            "date": "2026-04-02",
+            "followers": 0,
+            "views": 183,
+            "reach": 97
+          },
+          {
+            "date": "2026-04-03",
+            "followers": 3063,
+            "views": 339,
+            "reach": 43
+          },
+          {
+            "date": "2026-04-04",
+            "followers": 3068,
+            "views": 135,
+            "reach": 767
+          },
+          {
+            "date": "2026-04-05",
+            "followers": 3068,
+            "views": 1706,
+            "reach": 525
+          },
+          {
+            "date": "2026-04-06",
+            "followers": 3068,
+            "views": 667,
+            "reach": 27
+          },
+          {
+            "date": "2026-04-07",
+            "followers": 3068,
+            "views": 112,
+            "reach": 13
+          },
+          {
+            "date": "2026-04-08",
+            "followers": 3068,
+            "views": 56,
+            "reach": 22
+          },
+          {
+            "date": "2026-04-09",
+            "followers": 3067,
+            "views": 58,
+            "reach": 12
+          },
+          {
+            "date": "2026-04-10",
+            "followers": 0,
+            "views": 51,
+            "reach": 191
+          },
+          {
+            "date": "2026-04-11",
+            "followers": 3067,
+            "views": 896,
+            "reach": 362
+          },
+          {
+            "date": "2026-04-12",
+            "followers": 3065,
+            "views": 742,
+            "reach": 104
+          },
+          {
+            "date": "2026-04-13",
+            "followers": 3063,
+            "views": 176,
+            "reach": 21
+          },
+          {
+            "date": "2026-04-14",
+            "followers": 3061,
+            "views": 84,
+            "reach": 11
+          },
+          {
+            "date": "2026-04-15",
+            "followers": 3063,
+            "views": 66,
+            "reach": 46
+          },
+          {
+            "date": "2026-04-16",
+            "followers": 3063,
+            "views": 518,
+            "reach": 37
+          },
+          {
+            "date": "2026-04-17",
+            "followers": 3063,
+            "views": 412,
+            "reach": 158
+          },
+          {
+            "date": "2026-04-18",
+            "followers": 3063,
+            "views": 472,
+            "reach": 116
+          },
+          {
+            "date": "2026-04-19",
+            "followers": 3062,
+            "views": 481,
+            "reach": 59
+          },
+          {
+            "date": "2026-04-20",
+            "followers": 3062,
+            "views": 278,
+            "reach": 30
+          },
+          {
+            "date": "2026-04-21",
+            "followers": 3061,
+            "views": 115,
+            "reach": 23
+          },
+          {
+            "date": "2026-04-22",
+            "followers": 3061,
+            "views": 110,
+            "reach": 20
+          },
+          {
+            "date": "2026-04-23",
+            "followers": 3060,
+            "views": 89,
+            "reach": 24
+          },
+          {
+            "date": "2026-04-24",
+            "followers": 3060,
+            "views": 95,
+            "reach": 92
+          },
+          {
+            "date": "2026-04-25",
+            "followers": 3060,
+            "views": 801,
+            "reach": 936
+          },
+          {
+            "date": "2026-04-26",
+            "followers": 3060,
+            "views": 1263,
+            "reach": 80
+          },
+          {
+            "date": "2026-04-27",
+            "followers": 3061,
+            "views": 170,
+            "reach": 14
+          }
+        ],
+        "topPosts": [
+          {
+            "date": "2026-04-10",
+            "caption": "Happy Dental Hygienist Week \ud83e\uddb7\ud83e\ude75 We know there\u2019s so much that goes into what you do every day, and it doesn\u2019t go unnoticed. We appreciate you and all that you do! #dentalhygienistweek #dentalhygienist #dentalhygienists #dentalhygienistlife #dentalsta",
+            "link": "https://www.instagram.com/reel/DW9e_ApkaIc/",
+            "mediaType": "video",
+            "views": 316,
+            "reach": 256,
+            "likes": 6,
+            "comments": 0,
+            "saves": 0,
+            "shares": 0,
+            "engagements": 6,
+            "engRate": 2.3
+          },
+          {
+            "date": "2026-04-17",
+            "caption": "The future of dentistry looks bright \ud83e\uddb7\u2728\ufe0f\u2060 \u2060 Patty had a great time connecting with students at Roane State Community College and sharing how onDiem gives dental pros more flexibility and control over their careers.\u2060 \u2060 #dentallife #dentalstudents #den",
+            "link": "https://www.instagram.com/p/DXP67A3Ce0L/",
+            "mediaType": "image",
+            "views": 555,
+            "reach": 328,
+            "likes": 6,
+            "comments": 0,
+            "saves": 0,
+            "shares": 0,
+            "engagements": 6,
+            "engRate": 1.8
+          },
+          {
+            "date": "2026-04-02",
+            "caption": "More dental professionals are choosing flexibility and control over their schedules. \u2060 \u2060 onDiem makes it easy to find shifts that fit your life, not the other way around.\u2060 \u2060 \ud83e\uddb7 Give it a try at the link in our bio!\u2060 \u2060 #dentalassistant #dentalhygienist",
+            "link": "https://www.instagram.com/p/DWpSZvoGANa/",
+            "mediaType": "image",
+            "views": 204,
+            "reach": 142,
+            "likes": 2,
+            "comments": 0,
+            "saves": 0,
+            "shares": 0,
+            "engagements": 2,
+            "engRate": 1.4
+          },
+          {
+            "date": "2026-04-25",
+            "caption": "Different office. Different shifts. Same essentials! \ud83d\udc5c\u2728 Is there anything we\u2019re missing? \u2615 Tell us what\u2019s always in *your* starter pack \ud83e\udd0d #dentallife #dentalassistant #dentalhygienist #starterpack #RDHlife",
+            "link": "https://www.instagram.com/p/DXkJTHKjyk5/",
+            "mediaType": "image",
+            "views": 231,
+            "reach": 142,
+            "likes": 2,
+            "comments": 0,
+            "saves": 0,
+            "shares": 0,
+            "engagements": 2,
+            "engRate": 1.4
+          },
+          {
+            "date": "2026-04-18",
+            "caption": "Tired of working around your schedule instead of it working for you? onDiem helps you find shifts near you, choose when you work, and get the benefits you deserve, all without the burnout. \u2728 Flexible hours \u2728 Competitive pay \u2728 Real support Find shi",
+            "link": "https://www.instagram.com/p/DXSLJl0EpRl/",
+            "mediaType": "carousel",
+            "views": 208,
+            "reach": 81,
+            "likes": 1,
+            "comments": 0,
+            "saves": 0,
+            "shares": 0,
+            "engagements": 1,
+            "engRate": 1.0
+          },
+          {
+            "date": "2026-04-04",
+            "caption": "onDiem connects dental offices with assistants and hygienists looking for flexible work. \ud83e\uddb7 Whether you're picking up extra shifts or filling last-minute openings, the platform makes it easy to connect and get to work. \ud83e\udea5 Learn more at the link in ou",
+            "link": "https://www.instagram.com/p/DWt6SE_j0C8/",
+            "mediaType": "carousel",
+            "views": 1606,
+            "reach": 1286,
+            "likes": 5,
+            "comments": 0,
+            "saves": 1,
+            "shares": 2,
+            "engagements": 8,
+            "engRate": 0.62
+          },
+          {
+            "date": "2026-04-11",
+            "caption": "Burnt out? We\u2019ve got you. \ud83e\ude75 If your schedule isn\u2019t working for you, onDiem lets you choose when and where you work so you can finally have some balance again. Work that works for you \ud83e\uddb7\u2728 #dentalhygienist #dentalassistant #rdh #dentaljobs #dentalass",
+            "link": "https://www.instagram.com/reel/DW_xjbaPTUM/",
+            "mediaType": "video",
+            "views": 681,
+            "reach": 476,
+            "likes": 2,
+            "comments": 0,
+            "saves": 0,
+            "shares": 0,
+            "engagements": 2,
+            "engRate": 0.42
+          },
+          {
+            "date": "2026-04-24",
+            "caption": "Short staffed? We\u2019ve got you. \ud83e\udd1d Call-outs, schedule gaps, last-minute scrambles\u2026 it happens. onDiem connects you with qualified and pre-vetted dental professionals. Learn more at the link in our bio! \ud83e\uddb7 #dentalassistant #dentalhygienist #dentaljob",
+            "link": "https://www.instagram.com/p/DXh3W3fD_T4/",
+            "mediaType": "carousel",
+            "views": 1169,
+            "reach": 967,
+            "likes": 2,
+            "comments": 0,
+            "saves": 0,
+            "shares": 1,
+            "engagements": 2,
+            "engRate": 0.31
+          }
+        ],
+        "reels": {
+          "count": 2,
+          "totalViews": 997,
+          "avgEngRate": 1.36
+        },
+        "audienceHeatmap": [
+          {
+            "hour": 0,
+            "Sun Apr 19": 672,
+            "Mon Apr 20": 682,
+            "Tue Apr 21": 722,
+            "Wed Apr 15": 0,
+            "Thu Apr 16": 713,
+            "Fri Apr 17": 762,
+            "Sat Apr 18": 821
+          },
+          {
+            "hour": 1,
+            "Sun Apr 19": 442,
+            "Mon Apr 20": 426,
+            "Tue Apr 21": 455,
+            "Wed Apr 15": 0,
+            "Thu Apr 16": 492,
+            "Fri Apr 17": 585,
+            "Sat Apr 18": 578
+          },
+          {
+            "hour": 2,
+            "Sun Apr 19": 293,
+            "Mon Apr 20": 258,
+            "Tue Apr 21": 263,
+            "Wed Apr 15": 0,
+            "Thu Apr 16": 330,
+            "Fri Apr 17": 386,
+            "Sat Apr 18": 420
+          },
+          {
+            "hour": 3,
+            "Sun Apr 19": 186,
+            "Mon Apr 20": 176,
+            "Tue Apr 21": 168,
+            "Wed Apr 15": 173,
+            "Thu Apr 16": 202,
+            "Fri Apr 17": 243,
+            "Sat Apr 18": 264
+          },
+          {
+            "hour": 4,
+            "Sun Apr 19": 156,
+            "Mon Apr 20": 156,
+            "Tue Apr 21": 142,
+            "Wed Apr 15": 160,
+            "Thu Apr 16": 178,
+            "Fri Apr 17": 182,
+            "Sat Apr 18": 207
+          },
+          {
+            "hour": 5,
+            "Sun Apr 19": 237,
+            "Mon Apr 20": 235,
+            "Tue Apr 21": 270,
+            "Wed Apr 15": 241,
+            "Thu Apr 16": 241,
+            "Fri Apr 17": 189,
+            "Sat Apr 18": 181
+          },
+          {
+            "hour": 6,
+            "Sun Apr 19": 486,
+            "Mon Apr 20": 558,
+            "Tue Apr 21": 525,
+            "Wed Apr 15": 571,
+            "Thu Apr 16": 498,
+            "Fri Apr 17": 346,
+            "Sat Apr 18": 278
+          },
+          {
+            "hour": 7,
+            "Sun Apr 19": 740,
+            "Mon Apr 20": 741,
+            "Tue Apr 21": 770,
+            "Wed Apr 15": 740,
+            "Thu Apr 16": 767,
+            "Fri Apr 17": 618,
+            "Sat Apr 18": 490
+          },
+          {
+            "hour": 8,
+            "Sun Apr 19": 823,
+            "Mon Apr 20": 829,
+            "Tue Apr 21": 784,
+            "Wed Apr 15": 803,
+            "Thu Apr 16": 856,
+            "Fri Apr 17": 822,
+            "Sat Apr 18": 778
+          },
+          {
+            "hour": 9,
+            "Sun Apr 19": 880,
+            "Mon Apr 20": 916,
+            "Tue Apr 21": 906,
+            "Wed Apr 15": 907,
+            "Thu Apr 16": 951,
+            "Fri Apr 17": 959,
+            "Sat Apr 18": 938
+          },
+          {
+            "hour": 10,
+            "Sun Apr 19": 950,
+            "Mon Apr 20": 881,
+            "Tue Apr 21": 914,
+            "Wed Apr 15": 892,
+            "Thu Apr 16": 1015,
+            "Fri Apr 17": 1101,
+            "Sat Apr 18": 1124
+          },
+          {
+            "hour": 11,
+            "Sun Apr 19": 927,
+            "Mon Apr 20": 824,
+            "Tue Apr 21": 863,
+            "Wed Apr 15": 865,
+            "Thu Apr 16": 1009,
+            "Fri Apr 17": 1103,
+            "Sat Apr 18": 1190
+          },
+          {
+            "hour": 12,
+            "Sun Apr 19": 1018,
+            "Mon Apr 20": 936,
+            "Tue Apr 21": 951,
+            "Wed Apr 15": 954,
+            "Thu Apr 16": 1075,
+            "Fri Apr 17": 1158,
+            "Sat Apr 18": 1182
+          },
+          {
+            "hour": 13,
+            "Sun Apr 19": 1089,
+            "Mon Apr 20": 1035,
+            "Tue Apr 21": 1006,
+            "Wed Apr 15": 998,
+            "Thu Apr 16": 1051,
+            "Fri Apr 17": 1145,
+            "Sat Apr 18": 1221
+          },
+          {
+            "hour": 14,
+            "Sun Apr 19": 934,
+            "Mon Apr 20": 945,
+            "Tue Apr 21": 952,
+            "Wed Apr 15": 946,
+            "Thu Apr 16": 1119,
+            "Fri Apr 17": 1196,
+            "Sat Apr 18": 1213
+          },
+          {
+            "hour": 15,
+            "Sun Apr 19": 1021,
+            "Mon Apr 20": 991,
+            "Tue Apr 21": 1003,
+            "Wed Apr 15": 974,
+            "Thu Apr 16": 1168,
+            "Fri Apr 17": 1159,
+            "Sat Apr 18": 1210
+          },
+          {
+            "hour": 16,
+            "Sun Apr 19": 1039,
+            "Mon Apr 20": 995,
+            "Tue Apr 21": 1004,
+            "Wed Apr 15": 1003,
+            "Thu Apr 16": 1178,
+            "Fri Apr 17": 1178,
+            "Sat Apr 18": 1220
+          },
+          {
+            "hour": 17,
+            "Sun Apr 19": 1124,
+            "Mon Apr 20": 1050,
+            "Tue Apr 21": 1032,
+            "Wed Apr 15": 1103,
+            "Thu Apr 16": 1175,
+            "Fri Apr 17": 1203,
+            "Sat Apr 18": 1259
+          },
+          {
+            "hour": 18,
+            "Sun Apr 19": 1186,
+            "Mon Apr 20": 1158,
+            "Tue Apr 21": 1131,
+            "Wed Apr 15": 1149,
+            "Thu Apr 16": 1218,
+            "Fri Apr 17": 1212,
+            "Sat Apr 18": 1270
+          },
+          {
+            "hour": 19,
+            "Sun Apr 19": 1249,
+            "Mon Apr 20": 1213,
+            "Tue Apr 21": 1201,
+            "Wed Apr 15": 1245,
+            "Thu Apr 16": 1241,
+            "Fri Apr 17": 1244,
+            "Sat Apr 18": 1277
+          },
+          {
+            "hour": 20,
+            "Sun Apr 19": 1321,
+            "Mon Apr 20": 1310,
+            "Tue Apr 21": 1331,
+            "Wed Apr 15": 1328,
+            "Thu Apr 16": 1257,
+            "Fri Apr 17": 1265,
+            "Sat Apr 18": 1309
+          },
+          {
+            "hour": 21,
+            "Sun Apr 19": 1297,
+            "Mon Apr 20": 1367,
+            "Tue Apr 21": 1346,
+            "Wed Apr 15": 1351,
+            "Thu Apr 16": 1265,
+            "Fri Apr 17": 1290,
+            "Sat Apr 18": 1300
+          },
+          {
+            "hour": 22,
+            "Sun Apr 19": 1232,
+            "Mon Apr 20": 1196,
+            "Tue Apr 21": 1251,
+            "Wed Apr 15": 1265,
+            "Thu Apr 16": 1206,
+            "Fri Apr 17": 1190,
+            "Sat Apr 18": 1206
+          },
+          {
+            "hour": 23,
+            "Sun Apr 19": 958,
+            "Mon Apr 20": 986,
+            "Tue Apr 21": 963,
+            "Wed Apr 15": 1027,
+            "Thu Apr 16": 1032,
+            "Fri Apr 17": 1052,
+            "Sat Apr 18": 1024
+          }
+        ]
+      }
+    },
+    "linkedin": {
+      "365d": {
+        "kpis": {
+          "newFollowers": 132,
+          "pageViews": 2717,
+          "uniqueVisitors": 1201,
+          "mobileShare": 28.4,
+          "impressions": 12295,
+          "clicks": 1837,
+          "reactions": 348,
+          "comments": 14,
+          "reposts": 9,
+          "engagements": 371,
+          "engagementRate": 3.02,
+          "postCount": 53
+        },
+        "series": [
+          {
+            "date": "2025-05-04",
+            "pageViews": 23,
+            "uniqueVisitors": 14,
+            "impressions": 79,
+            "engagements": 1,
+            "newFollowers": 2
+          },
+          {
+            "date": "2025-05-11",
+            "pageViews": 35,
+            "uniqueVisitors": 16,
+            "impressions": 113,
+            "engagements": 8,
+            "newFollowers": 0
+          },
+          {
+            "date": "2025-05-18",
+            "pageViews": 35,
+            "uniqueVisitors": 16,
+            "impressions": 380,
+            "engagements": 22,
+            "newFollowers": 2
+          },
+          {
+            "date": "2025-05-25",
+            "pageViews": 53,
+            "uniqueVisitors": 22,
+            "impressions": 257,
+            "engagements": 12,
+            "newFollowers": 4
+          },
+          {
+            "date": "2025-06-01",
+            "pageViews": 46,
+            "uniqueVisitors": 23,
+            "impressions": 68,
+            "engagements": 1,
+            "newFollowers": 2
+          },
+          {
+            "date": "2025-06-08",
+            "pageViews": 62,
+            "uniqueVisitors": 22,
+            "impressions": 167,
+            "engagements": 5,
+            "newFollowers": 5
+          },
+          {
+            "date": "2025-06-15",
+            "pageViews": 46,
+            "uniqueVisitors": 18,
+            "impressions": 105,
+            "engagements": 3,
+            "newFollowers": 3
+          },
+          {
+            "date": "2025-06-22",
+            "pageViews": 69,
+            "uniqueVisitors": 31,
+            "impressions": 202,
+            "engagements": 6,
+            "newFollowers": 1
+          },
+          {
+            "date": "2025-06-29",
+            "pageViews": 72,
+            "uniqueVisitors": 38,
+            "impressions": 307,
+            "engagements": 9,
+            "newFollowers": 6
+          },
+          {
+            "date": "2025-07-06",
+            "pageViews": 56,
+            "uniqueVisitors": 29,
+            "impressions": 139,
+            "engagements": 4,
+            "newFollowers": 1
+          },
+          {
+            "date": "2025-07-13",
+            "pageViews": 31,
+            "uniqueVisitors": 14,
+            "impressions": 130,
+            "engagements": 2,
+            "newFollowers": 2
+          },
+          {
+            "date": "2025-07-20",
+            "pageViews": 41,
+            "uniqueVisitors": 19,
+            "impressions": 60,
+            "engagements": 0,
+            "newFollowers": 4
+          },
+          {
+            "date": "2025-07-27",
+            "pageViews": 57,
+            "uniqueVisitors": 26,
+            "impressions": 120,
+            "engagements": 0,
+            "newFollowers": 1
+          },
+          {
+            "date": "2025-08-03",
+            "pageViews": 42,
+            "uniqueVisitors": 23,
+            "impressions": 24,
+            "engagements": 2,
+            "newFollowers": 2
+          },
+          {
+            "date": "2025-08-10",
+            "pageViews": 67,
+            "uniqueVisitors": 27,
+            "impressions": 152,
+            "engagements": 0,
+            "newFollowers": 2
+          },
+          {
+            "date": "2025-08-17",
+            "pageViews": 91,
+            "uniqueVisitors": 37,
+            "impressions": 131,
+            "engagements": 0,
+            "newFollowers": 3
+          },
+          {
+            "date": "2025-08-24",
+            "pageViews": 55,
+            "uniqueVisitors": 21,
+            "impressions": 37,
+            "engagements": 0,
+            "newFollowers": 8
+          },
+          {
+            "date": "2025-08-31",
+            "pageViews": 69,
+            "uniqueVisitors": 22,
+            "impressions": 68,
+            "engagements": 0,
+            "newFollowers": -1
+          },
+          {
+            "date": "2025-09-07",
+            "pageViews": 66,
+            "uniqueVisitors": 24,
+            "impressions": 413,
+            "engagements": 18,
+            "newFollowers": 1
+          },
+          {
+            "date": "2025-09-14",
+            "pageViews": 56,
+            "uniqueVisitors": 29,
+            "impressions": 177,
+            "engagements": 5,
+            "newFollowers": 3
+          },
+          {
+            "date": "2025-09-21",
+            "pageViews": 82,
+            "uniqueVisitors": 37,
+            "impressions": 211,
+            "engagements": 1,
+            "newFollowers": 8
+          },
+          {
+            "date": "2025-09-28",
+            "pageViews": 34,
+            "uniqueVisitors": 21,
+            "impressions": 244,
+            "engagements": 2,
+            "newFollowers": 4
+          },
+          {
+            "date": "2025-10-05",
+            "pageViews": 39,
+            "uniqueVisitors": 26,
+            "impressions": 59,
+            "engagements": 0,
+            "newFollowers": -1
+          },
+          {
+            "date": "2025-10-12",
+            "pageViews": 87,
+            "uniqueVisitors": 29,
+            "impressions": 152,
+            "engagements": 0,
+            "newFollowers": 2
+          },
+          {
+            "date": "2025-10-19",
+            "pageViews": 47,
+            "uniqueVisitors": 23,
+            "impressions": 19,
+            "engagements": 0,
+            "newFollowers": 2
+          },
+          {
+            "date": "2025-10-26",
+            "pageViews": 25,
+            "uniqueVisitors": 16,
+            "impressions": 27,
+            "engagements": 0,
+            "newFollowers": 1
+          },
+          {
+            "date": "2025-11-02",
+            "pageViews": 42,
+            "uniqueVisitors": 16,
+            "impressions": 43,
+            "engagements": 0,
+            "newFollowers": 6
+          },
+          {
+            "date": "2025-11-09",
+            "pageViews": 41,
+            "uniqueVisitors": 16,
+            "impressions": 66,
+            "engagements": 0,
+            "newFollowers": 2
+          },
+          {
+            "date": "2025-11-16",
+            "pageViews": 50,
+            "uniqueVisitors": 21,
+            "impressions": 215,
+            "engagements": 5,
+            "newFollowers": 3
+          },
+          {
+            "date": "2025-11-23",
+            "pageViews": 45,
+            "uniqueVisitors": 20,
+            "impressions": 424,
+            "engagements": 8,
+            "newFollowers": 2
+          },
+          {
+            "date": "2025-11-30",
+            "pageViews": 25,
+            "uniqueVisitors": 13,
+            "impressions": 167,
+            "engagements": 3,
+            "newFollowers": 0
+          },
+          {
+            "date": "2025-12-07",
+            "pageViews": 84,
+            "uniqueVisitors": 22,
+            "impressions": 468,
+            "engagements": 12,
+            "newFollowers": 3
+          },
+          {
+            "date": "2025-12-14",
+            "pageViews": 74,
+            "uniqueVisitors": 27,
+            "impressions": 418,
+            "engagements": 19,
+            "newFollowers": 3
+          },
+          {
+            "date": "2025-12-21",
+            "pageViews": 52,
+            "uniqueVisitors": 24,
+            "impressions": 554,
+            "engagements": 14,
+            "newFollowers": 0
+          },
+          {
+            "date": "2025-12-28",
+            "pageViews": 19,
+            "uniqueVisitors": 9,
+            "impressions": 249,
+            "engagements": 8,
+            "newFollowers": 1
+          },
+          {
+            "date": "2026-01-04",
+            "pageViews": 52,
+            "uniqueVisitors": 15,
+            "impressions": 404,
+            "engagements": 9,
+            "newFollowers": 3
+          },
+          {
+            "date": "2026-01-11",
+            "pageViews": 60,
+            "uniqueVisitors": 26,
+            "impressions": 431,
+            "engagements": 23,
+            "newFollowers": 8
+          },
+          {
+            "date": "2026-01-18",
+            "pageViews": 37,
+            "uniqueVisitors": 22,
+            "impressions": 311,
+            "engagements": 11,
+            "newFollowers": 1
+          },
+          {
+            "date": "2026-01-25",
+            "pageViews": 50,
+            "uniqueVisitors": 19,
+            "impressions": 210,
+            "engagements": 9,
+            "newFollowers": 2
+          },
+          {
+            "date": "2026-02-01",
+            "pageViews": 96,
+            "uniqueVisitors": 59,
+            "impressions": 214,
+            "engagements": 5,
+            "newFollowers": 4
+          },
+          {
+            "date": "2026-02-08",
+            "pageViews": 41,
+            "uniqueVisitors": 21,
+            "impressions": 237,
+            "engagements": 12,
+            "newFollowers": 1
+          },
+          {
+            "date": "2026-02-15",
+            "pageViews": 40,
+            "uniqueVisitors": 17,
+            "impressions": 175,
+            "engagements": 6,
+            "newFollowers": 2
+          },
+          {
+            "date": "2026-02-22",
+            "pageViews": 55,
+            "uniqueVisitors": 24,
+            "impressions": 632,
+            "engagements": 25,
+            "newFollowers": 3
+          },
+          {
+            "date": "2026-03-01",
+            "pageViews": 52,
+            "uniqueVisitors": 22,
+            "impressions": 447,
+            "engagements": 15,
+            "newFollowers": 4
+          },
+          {
+            "date": "2026-03-08",
+            "pageViews": 78,
+            "uniqueVisitors": 32,
+            "impressions": 452,
+            "engagements": 15,
+            "newFollowers": 3
+          },
+          {
+            "date": "2026-03-15",
+            "pageViews": 53,
+            "uniqueVisitors": 23,
+            "impressions": 656,
+            "engagements": 22,
+            "newFollowers": 4
+          },
+          {
+            "date": "2026-03-22",
+            "pageViews": 43,
+            "uniqueVisitors": 20,
+            "impressions": 379,
+            "engagements": 13,
+            "newFollowers": 5
+          },
+          {
+            "date": "2026-03-29",
+            "pageViews": 46,
+            "uniqueVisitors": 18,
+            "impressions": 295,
+            "engagements": 9,
+            "newFollowers": 1
+          },
+          {
+            "date": "2026-04-05",
+            "pageViews": 40,
+            "uniqueVisitors": 20,
+            "impressions": 142,
+            "engagements": 5,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-04-12",
+            "pageViews": 70,
+            "uniqueVisitors": 29,
+            "impressions": 165,
+            "engagements": 4,
+            "newFollowers": 1
+          },
+          {
+            "date": "2026-04-19",
+            "pageViews": 25,
+            "uniqueVisitors": 12,
+            "impressions": 165,
+            "engagements": 4,
+            "newFollowers": 2
+          },
+          {
+            "date": "2026-04-26",
+            "pageViews": 38,
+            "uniqueVisitors": 21,
+            "impressions": 233,
+            "engagements": 5,
+            "newFollowers": 1
+          },
+          {
+            "date": "2026-05-03",
+            "pageViews": 23,
+            "uniqueVisitors": 10,
+            "impressions": 302,
+            "engagements": 9,
+            "newFollowers": 0
+          }
+        ],
+        "topPosts": [
+          {
+            "date": "2026-03-27",
+            "caption": "Temping gives dental pros the flexibility to build a schedule that works for them, not the other way around. And for a lot of people, that\u2019s a game changer. If you\u2019ve been thinking about temping, onD",
+            "link": "https://www.linkedin.com/feed/update/urn:li:activity:7443409161842868224",
+            "impressions": 117,
+            "clicks": 65,
+            "likes": 6,
+            "comments": 0,
+            "reposts": 1,
+            "engRate": 0.6153846383094788,
+            "postType": "Organic"
+          },
+          {
+            "date": "2026-04-02",
+            "caption": "onDiem connects dental offices with assistants and hygienists looking for flexible work. \ud83e\uddb7 Whether you're picking up extra shifts or filling last-minute openings, the platform makes it easy to connec",
+            "link": "https://www.linkedin.com/feed/update/urn:li:activity:7446949864841752576",
+            "impressions": 129,
+            "clicks": 73,
+            "likes": 3,
+            "comments": 0,
+            "reposts": 0,
+            "engRate": 0.5891472697257996,
+            "postType": "Organic"
+          },
+          {
+            "date": "2026-03-13",
+            "caption": "It's a busy day at the Hinman Dental Meeting! \ud83e\uddb7\ud83c\udf1f If you're here, be sure to say hi to Kyle Zak, MBA & Patricia Farmer RDH at the onDiem booth! They're here to tell you all about our platform and how",
+            "link": "https://www.linkedin.com/feed/update/urn:li:activity:7438296612378005504",
+            "impressions": 317,
+            "clicks": 172,
+            "likes": 10,
+            "comments": 1,
+            "reposts": 1,
+            "engRate": 0.5804416537284851,
+            "postType": "Organic"
+          },
+          {
+            "date": "2025-12-30",
+            "caption": "As we wrap up 2025, one thing is clear, opportunity is everywhere! At onDiem, we\u2019re helping dental professionals harness their skills, passion, and drive to step into the new year with real career gro",
+            "link": "https://www.linkedin.com/feed/update/urn:li:activity:7411826620744904704",
+            "impressions": 194,
+            "clicks": 102,
+            "likes": 7,
+            "comments": 0,
+            "reposts": 1,
+            "engRate": 0.5670102834701538,
+            "postType": "Organic"
+          },
+          {
+            "date": "2025-12-02",
+            "caption": "What a time at the Javits Center! This year\u2019s Greater New York Dental Meeting conference was all about energy, ideas, and connection\u2014and onDiem was right in the middle of it. From inspiring conversati",
+            "link": "https://www.linkedin.com/feed/update/urn:li:activity:7401733722913415169",
+            "impressions": 344,
+            "clicks": 181,
+            "likes": 10,
+            "comments": 0,
+            "reposts": 0,
+            "engRate": 0.555232584476471,
+            "postType": "Organic"
+          },
+          {
+            "date": "2025-12-19",
+            "caption": "Heading to an Andy RDH board review? Look for us in your event book and see how we\u2019re changing the game for dental pros! onDiem puts you in total control of your schedule and your paycheck. Here is wh",
+            "link": "https://www.linkedin.com/feed/update/urn:li:activity:7407854274170331136",
+            "impressions": 125,
+            "clicks": 59,
+            "likes": 3,
+            "comments": 0,
+            "reposts": 0,
+            "engRate": 0.4959999918937683,
+            "postType": "Organic"
+          },
+          {
+            "date": "2025-12-19",
+            "caption": "The next generation of dental hygienists is unstoppable \ud83d\udcaa\u2728\ufe0f onDiem celebrates their journey at Andy RDH Chicago. #AndyRDH #RDHBoardReview #FutureRDHs #DentalHygieneStudents #ondiem #onDiemCommunity",
+            "link": "https://www.linkedin.com/feed/update/urn:li:activity:7408151766552186880",
+            "impressions": 313,
+            "clicks": 129,
+            "likes": 11,
+            "comments": 1,
+            "reposts": 0,
+            "engRate": 0.4504792392253876,
+            "postType": "Organic"
+          },
+          {
+            "date": "2026-01-13",
+            "caption": "A weekend well spent! We had a blast connecting with the RDH community in sunny Anaheim. Here\u2019s a look at our favorite highlights:\u2060 \u2060 \u2728\ufe0fMeeting the amazing attendees\u2060 \ud83e\udd1d Sharing the Ondiem mission\u2060 \u2600\ufe0fS",
+            "link": "https://www.linkedin.com/feed/update/urn:li:activity:7416917108988637184",
+            "impressions": 156,
+            "clicks": 64,
+            "likes": 4,
+            "comments": 0,
+            "reposts": 0,
+            "engRate": 0.43589743971824646,
+            "postType": "Organic"
+          }
+        ],
+        "pageBreakdown": {
+          "overview": 1394,
+          "jobs": 297,
+          "life": 0
+        },
+        "deviceSplit": {
+          "desktop": 1946,
+          "mobile": 771
+        },
+        "followerDemographics": {
+          "location": [
+            {
+              "label": "New York City Metropolitan Area",
+              "value": 187
+            },
+            {
+              "label": "San Francisco Bay Area",
+              "value": 102
+            },
+            {
+              "label": "Dallas-Fort Worth Metroplex",
+              "value": 98
+            },
+            {
+              "label": "Los Angeles Metropolitan Area",
+              "value": 84
+            },
+            {
+              "label": "Greater Phoenix Area",
+              "value": 70
+            },
+            {
+              "label": "Greater Chicago Area",
+              "value": 66
+            },
+            {
+              "label": "Washington DC-Baltimore Area",
+              "value": 64
+            },
+            {
+              "label": "Portland, Oregon Metropolitan Area",
+              "value": 64
+            },
+            {
+              "label": "Greater Seattle Area",
+              "value": 63
+            },
+            {
+              "label": "Atlanta Metropolitan Area",
+              "value": 61
+            }
+          ],
+          "jobFunction": [
+            {
+              "label": "Engineering",
+              "value": 457
+            },
+            {
+              "label": "Healthcare Services",
+              "value": 267
+            },
+            {
+              "label": "Information Technology",
+              "value": 233
+            },
+            {
+              "label": "Business Development",
+              "value": 207
+            },
+            {
+              "label": "Sales",
+              "value": 176
+            },
+            {
+              "label": "Operations",
+              "value": 67
+            },
+            {
+              "label": "Human Resources",
+              "value": 46
+            },
+            {
+              "label": "Accounting",
+              "value": 45
+            },
+            {
+              "label": "Education",
+              "value": 41
+            },
+            {
+              "label": "Research",
+              "value": 38
+            }
+          ],
+          "seniority": [
+            {
+              "label": "Entry",
+              "value": 929
+            },
+            {
+              "label": "Senior",
+              "value": 540
+            },
+            {
+              "label": "Director",
+              "value": 112
+            },
+            {
+              "label": "Owner",
+              "value": 68
+            },
+            {
+              "label": "CXO",
+              "value": 67
+            },
+            {
+              "label": "Manager",
+              "value": 64
+            },
+            {
+              "label": "VP",
+              "value": 51
+            },
+            {
+              "label": "Partner",
+              "value": 13
+            },
+            {
+              "label": "Training",
+              "value": 11
+            },
+            {
+              "label": "Unpaid",
+              "value": 6
+            }
+          ],
+          "industry": [
+            {
+              "label": "Software Development",
+              "value": 237
+            },
+            {
+              "label": "IT Services and IT Consulting",
+              "value": 139
+            },
+            {
+              "label": "Hospitals and Health Care",
+              "value": 134
+            },
+            {
+              "label": "Medical Equipment Manufacturing",
+              "value": 133
+            },
+            {
+              "label": "Dentists",
+              "value": 122
+            },
+            {
+              "label": "Temporary Help Services",
+              "value": 89
+            },
+            {
+              "label": "Medical Practices",
+              "value": 66
+            },
+            {
+              "label": "Higher Education",
+              "value": 61
+            },
+            {
+              "label": "Financial Services",
+              "value": 54
+            },
+            {
+              "label": "Technology, Information and Internet",
+              "value": 49
+            }
+          ],
+          "companySize": [
+            {
+              "label": "10001+",
+              "value": 398
+            },
+            {
+              "label": "51-200",
+              "value": 262
+            },
+            {
+              "label": "11-50",
+              "value": 230
+            },
+            {
+              "label": "201-500",
+              "value": 193
+            },
+            {
+              "label": "1001-5000",
+              "value": 190
+            },
+            {
+              "label": "2-10",
+              "value": 186
+            },
+            {
+              "label": "501-1000",
+              "value": 101
+            },
+            {
+              "label": "5001-10000",
+              "value": 69
+            },
+            {
+              "label": "1",
+              "value": 28
+            }
+          ]
+        },
+        "visitorDemographics": {
+          "location": [
+            {
+              "label": "New York City Metropolitan Area",
+              "value": 325
+            },
+            {
+              "label": "Los Angeles Metropolitan Area",
+              "value": 199
+            },
+            {
+              "label": "Portland, Oregon Metropolitan Area",
+              "value": 164
+            },
+            {
+              "label": "Greater Boston",
+              "value": 135
+            },
+            {
+              "label": "San Francisco Bay Area",
+              "value": 98
+            },
+            {
+              "label": "Austin, Texas Metropolitan Area",
+              "value": 93
+            },
+            {
+              "label": "Detroit Metropolitan Area",
+              "value": 84
+            },
+            {
+              "label": "Miami-Fort Lauderdale Area",
+              "value": 82
+            },
+            {
+              "label": "Greater Tampa Bay Area",
+              "value": 75
+            },
+            {
+              "label": "Pune/Pimpri-Chinchwad Area, India",
+              "value": 57
+            }
+          ],
+          "jobFunction": [
+            {
+              "label": "Business Development",
+              "value": 475
+            },
+            {
+              "label": "Sales",
+              "value": 302
+            },
+            {
+              "label": "Human Resources",
+              "value": 168
+            },
+            {
+              "label": "Marketing",
+              "value": 158
+            },
+            {
+              "label": "Engineering",
+              "value": 155
+            },
+            {
+              "label": "Operations",
+              "value": 133
+            },
+            {
+              "label": "Healthcare Services",
+              "value": 115
+            },
+            {
+              "label": "Entrepreneurship",
+              "value": 106
+            },
+            {
+              "label": "Information Technology",
+              "value": 69
+            },
+            {
+              "label": "Arts and Design",
+              "value": 48
+            }
+          ],
+          "seniority": [
+            {
+              "label": "Senior",
+              "value": 831
+            },
+            {
+              "label": "Entry",
+              "value": 675
+            },
+            {
+              "label": "CXO",
+              "value": 200
+            },
+            {
+              "label": "Director",
+              "value": 168
+            },
+            {
+              "label": "Partner",
+              "value": 141
+            },
+            {
+              "label": "VP",
+              "value": 130
+            },
+            {
+              "label": "Owner",
+              "value": 93
+            },
+            {
+              "label": "Manager",
+              "value": 65
+            },
+            {
+              "label": "Unpaid",
+              "value": 12
+            }
+          ],
+          "industry": [
+            {
+              "label": "Software Development",
+              "value": 410
+            },
+            {
+              "label": "IT Services and IT Consulting",
+              "value": 311
+            },
+            {
+              "label": "Hospitals and Health Care",
+              "value": 227
+            },
+            {
+              "label": "Technology, Information and Internet",
+              "value": 214
+            },
+            {
+              "label": "Financial Services",
+              "value": 189
+            },
+            {
+              "label": "Staffing and Recruiting",
+              "value": 175
+            },
+            {
+              "label": "Venture Capital and Private Equity Principals",
+              "value": 125
+            },
+            {
+              "label": "Business Consulting and Services",
+              "value": 111
+            },
+            {
+              "label": "Advertising Services",
+              "value": 92
+            },
+            {
+              "label": "Design Services",
+              "value": 83
+            }
+          ],
+          "companySize": [
+            {
+              "label": "51-200",
+              "value": 578
+            },
+            {
+              "label": "11-50",
+              "value": 462
+            },
+            {
+              "label": "2-10",
+              "value": 323
+            },
+            {
+              "label": "201-500",
+              "value": 255
+            },
+            {
+              "label": "10001+",
+              "value": 222
+            },
+            {
+              "label": "1001-5000",
+              "value": 132
+            },
+            {
+              "label": "501-1000",
+              "value": 107
+            },
+            {
+              "label": "5001-10000",
+              "value": 22
+            },
+            {
+              "label": "1",
+              "value": 18
+            }
+          ]
+        }
+      },
+      "30d": {
+        "kpis": {
+          "newFollowers": 4,
+          "pageViews": 196,
+          "uniqueVisitors": 92,
+          "mobileShare": 34.2,
+          "impressions": 1007,
+          "clicks": 218,
+          "reactions": 22,
+          "comments": 4,
+          "reposts": 1,
+          "engagements": 27,
+          "engagementRate": 2.68,
+          "postCount": 6
+        },
+        "series": [
+          {
+            "date": "2026-03-30",
+            "pageViews": 15,
+            "uniqueVisitors": 6,
+            "impressions": 37,
+            "engagements": 0,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-03-31",
+            "pageViews": 4,
+            "uniqueVisitors": 2,
+            "impressions": 14,
+            "engagements": 1,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-04-01",
+            "pageViews": 6,
+            "uniqueVisitors": 3,
+            "impressions": 9,
+            "engagements": 1,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-04-02",
+            "pageViews": 10,
+            "uniqueVisitors": 5,
+            "impressions": 43,
+            "engagements": 1,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-04-03",
+            "pageViews": 2,
+            "uniqueVisitors": 2,
+            "impressions": 23,
+            "engagements": 2,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-04-04",
+            "pageViews": 0,
+            "uniqueVisitors": 0,
+            "impressions": 8,
+            "engagements": 0,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-04-05",
+            "pageViews": 3,
+            "uniqueVisitors": 2,
+            "impressions": 8,
+            "engagements": 0,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-04-06",
+            "pageViews": 5,
+            "uniqueVisitors": 4,
+            "impressions": 39,
+            "engagements": 1,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-04-07",
+            "pageViews": 12,
+            "uniqueVisitors": 7,
+            "impressions": 24,
+            "engagements": 2,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-04-08",
+            "pageViews": 33,
+            "uniqueVisitors": 7,
+            "impressions": 27,
+            "engagements": 0,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-04-09",
+            "pageViews": 6,
+            "uniqueVisitors": 4,
+            "impressions": 19,
+            "engagements": 0,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-04-10",
+            "pageViews": 4,
+            "uniqueVisitors": 2,
+            "impressions": 26,
+            "engagements": 0,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-04-11",
+            "pageViews": 10,
+            "uniqueVisitors": 5,
+            "impressions": 22,
+            "engagements": 0,
+            "newFollowers": 1
+          },
+          {
+            "date": "2026-04-12",
+            "pageViews": 0,
+            "uniqueVisitors": 0,
+            "impressions": 8,
+            "engagements": 1,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-04-13",
+            "pageViews": 3,
+            "uniqueVisitors": 1,
+            "impressions": 11,
+            "engagements": 0,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-04-14",
+            "pageViews": 1,
+            "uniqueVisitors": 1,
+            "impressions": 18,
+            "engagements": 2,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-04-15",
+            "pageViews": 0,
+            "uniqueVisitors": 0,
+            "impressions": 7,
+            "engagements": 0,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-04-16",
+            "pageViews": 5,
+            "uniqueVisitors": 2,
+            "impressions": 12,
+            "engagements": 0,
+            "newFollowers": -1
+          },
+          {
+            "date": "2026-04-17",
+            "pageViews": 6,
+            "uniqueVisitors": 3,
+            "impressions": 35,
+            "engagements": 0,
+            "newFollowers": 1
+          },
+          {
+            "date": "2026-04-18",
+            "pageViews": 0,
+            "uniqueVisitors": 0,
+            "impressions": 67,
+            "engagements": 2,
+            "newFollowers": 2
+          },
+          {
+            "date": "2026-04-19",
+            "pageViews": 10,
+            "uniqueVisitors": 5,
+            "impressions": 15,
+            "engagements": 0,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-04-20",
+            "pageViews": 3,
+            "uniqueVisitors": 2,
+            "impressions": 68,
+            "engagements": 3,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-04-21",
+            "pageViews": 9,
+            "uniqueVisitors": 5,
+            "impressions": 35,
+            "engagements": 1,
+            "newFollowers": 1
+          },
+          {
+            "date": "2026-04-22",
+            "pageViews": 9,
+            "uniqueVisitors": 4,
+            "impressions": 43,
+            "engagements": 0,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-04-23",
+            "pageViews": 2,
+            "uniqueVisitors": 2,
+            "impressions": 18,
+            "engagements": 0,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-04-24",
+            "pageViews": 14,
+            "uniqueVisitors": 7,
+            "impressions": 47,
+            "engagements": 0,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-04-25",
+            "pageViews": 0,
+            "uniqueVisitors": 0,
+            "impressions": 14,
+            "engagements": 0,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-04-26",
+            "pageViews": 1,
+            "uniqueVisitors": 1,
+            "impressions": 8,
+            "engagements": 1,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-04-27",
+            "pageViews": 7,
+            "uniqueVisitors": 4,
+            "impressions": 102,
+            "engagements": 8,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-04-28",
+            "pageViews": 16,
+            "uniqueVisitors": 6,
+            "impressions": 200,
+            "engagements": 1,
+            "newFollowers": 0
+          }
+        ],
+        "topPosts": [
+          {
+            "date": "2026-04-02",
+            "caption": "onDiem connects dental offices with assistants and hygienists looking for flexible work. \ud83e\uddb7 Whether you're picking up extra shifts or filling last-minute openings, the platform makes it easy to connec",
+            "link": "https://www.linkedin.com/feed/update/urn:li:activity:7446949864841752576",
+            "impressions": 129,
+            "clicks": 73,
+            "likes": 3,
+            "comments": 0,
+            "reposts": 0,
+            "engRate": 0.5891472697257996,
+            "postType": "Organic"
+          },
+          {
+            "date": "2026-04-17",
+            "caption": "Tired of working around your schedule instead of it working for you? onDiem helps you find shifts near you, choose when you work, and get the benefits you deserve, all without the burnout. \u2728 Flexibl",
+            "link": "https://www.linkedin.com/feed/update/urn:li:activity:7452038417867079680",
+            "impressions": 96,
+            "clicks": 30,
+            "likes": 3,
+            "comments": 0,
+            "reposts": 1,
+            "engRate": 0.3541666567325592,
+            "postType": "Organic"
+          },
+          {
+            "date": "2026-04-24",
+            "caption": "Short staffed? We\u2019ve got you. \ud83e\udd1d Call-outs, schedule gaps, last-minute scrambles\u2026 it happens. onDiem connects you with qualified and pre-vetted dental professionals. \ud83e\uddb7Learn more: https://lnkd.in/g",
+            "link": "https://www.linkedin.com/feed/update/urn:li:activity:7453547911772282880",
+            "impressions": 63,
+            "clicks": 11,
+            "likes": 1,
+            "comments": 0,
+            "reposts": 0,
+            "engRate": 0.190476194024086,
+            "postType": "Organic"
+          },
+          {
+            "date": "2026-04-24",
+            "caption": "Different office. Different shifts. Same essentials! \ud83d\udc5c\u2728 Is there anything we\u2019re missing? Tell us what\u2019s always in your starter pack \ud83e\udd0d #dentallife #dentalassistant #dentalhygienist #starterpack #RD",
+            "link": "https://www.linkedin.com/feed/update/urn:li:activity:7454560007095967744",
+            "impressions": 153,
+            "clicks": 15,
+            "likes": 4,
+            "comments": 4,
+            "reposts": 0,
+            "engRate": 0.15032680332660675,
+            "postType": "Organic"
+          },
+          {
+            "date": "2026-04-02",
+            "caption": "More and more dental professionals are choosing flexibility and control over their schedules. onDiem makes it easy to find shifts that fit your life, not the other way around. \ud83e\uddb7 Give it a try for yo",
+            "link": "https://www.linkedin.com/feed/update/urn:li:activity:7445598286528364544",
+            "impressions": 79,
+            "clicks": 2,
+            "likes": 4,
+            "comments": 0,
+            "reposts": 0,
+            "engRate": 0.07594936341047287,
+            "postType": "Organic"
+          }
+        ],
+        "pageBreakdown": {
+          "overview": 101,
+          "jobs": 37,
+          "life": 0
+        },
+        "deviceSplit": {
+          "desktop": 129,
+          "mobile": 67
+        },
+        "followerDemographics": {
+          "location": [
+            {
+              "label": "New York City Metropolitan Area",
+              "value": 187
+            },
+            {
+              "label": "San Francisco Bay Area",
+              "value": 102
+            },
+            {
+              "label": "Dallas-Fort Worth Metroplex",
+              "value": 98
+            },
+            {
+              "label": "Los Angeles Metropolitan Area",
+              "value": 84
+            },
+            {
+              "label": "Greater Phoenix Area",
+              "value": 70
+            },
+            {
+              "label": "Greater Chicago Area",
+              "value": 66
+            },
+            {
+              "label": "Washington DC-Baltimore Area",
+              "value": 64
+            },
+            {
+              "label": "Portland, Oregon Metropolitan Area",
+              "value": 64
+            },
+            {
+              "label": "Greater Seattle Area",
+              "value": 63
+            },
+            {
+              "label": "Atlanta Metropolitan Area",
+              "value": 61
+            }
+          ],
+          "jobFunction": [
+            {
+              "label": "Engineering",
+              "value": 457
+            },
+            {
+              "label": "Healthcare Services",
+              "value": 267
+            },
+            {
+              "label": "Information Technology",
+              "value": 233
+            },
+            {
+              "label": "Business Development",
+              "value": 207
+            },
+            {
+              "label": "Sales",
+              "value": 176
+            },
+            {
+              "label": "Operations",
+              "value": 67
+            },
+            {
+              "label": "Human Resources",
+              "value": 46
+            },
+            {
+              "label": "Accounting",
+              "value": 45
+            },
+            {
+              "label": "Education",
+              "value": 41
+            },
+            {
+              "label": "Research",
+              "value": 38
+            }
+          ],
+          "seniority": [
+            {
+              "label": "Entry",
+              "value": 929
+            },
+            {
+              "label": "Senior",
+              "value": 540
+            },
+            {
+              "label": "Director",
+              "value": 112
+            },
+            {
+              "label": "Owner",
+              "value": 68
+            },
+            {
+              "label": "CXO",
+              "value": 67
+            },
+            {
+              "label": "Manager",
+              "value": 64
+            },
+            {
+              "label": "VP",
+              "value": 51
+            },
+            {
+              "label": "Partner",
+              "value": 13
+            },
+            {
+              "label": "Training",
+              "value": 11
+            },
+            {
+              "label": "Unpaid",
+              "value": 6
+            }
+          ],
+          "industry": [
+            {
+              "label": "Software Development",
+              "value": 237
+            },
+            {
+              "label": "IT Services and IT Consulting",
+              "value": 139
+            },
+            {
+              "label": "Hospitals and Health Care",
+              "value": 134
+            },
+            {
+              "label": "Medical Equipment Manufacturing",
+              "value": 133
+            },
+            {
+              "label": "Dentists",
+              "value": 122
+            },
+            {
+              "label": "Temporary Help Services",
+              "value": 89
+            },
+            {
+              "label": "Medical Practices",
+              "value": 66
+            },
+            {
+              "label": "Higher Education",
+              "value": 61
+            },
+            {
+              "label": "Financial Services",
+              "value": 54
+            },
+            {
+              "label": "Technology, Information and Internet",
+              "value": 49
+            }
+          ],
+          "companySize": [
+            {
+              "label": "10001+",
+              "value": 398
+            },
+            {
+              "label": "51-200",
+              "value": 262
+            },
+            {
+              "label": "11-50",
+              "value": 230
+            },
+            {
+              "label": "201-500",
+              "value": 193
+            },
+            {
+              "label": "1001-5000",
+              "value": 190
+            },
+            {
+              "label": "2-10",
+              "value": 186
+            },
+            {
+              "label": "501-1000",
+              "value": 101
+            },
+            {
+              "label": "5001-10000",
+              "value": 69
+            },
+            {
+              "label": "1",
+              "value": 28
+            }
+          ]
+        },
+        "visitorDemographics": {
+          "location": [
+            {
+              "label": "New York City Metropolitan Area",
+              "value": 325
+            },
+            {
+              "label": "Los Angeles Metropolitan Area",
+              "value": 199
+            },
+            {
+              "label": "Portland, Oregon Metropolitan Area",
+              "value": 164
+            },
+            {
+              "label": "Greater Boston",
+              "value": 135
+            },
+            {
+              "label": "San Francisco Bay Area",
+              "value": 98
+            },
+            {
+              "label": "Austin, Texas Metropolitan Area",
+              "value": 93
+            },
+            {
+              "label": "Detroit Metropolitan Area",
+              "value": 84
+            },
+            {
+              "label": "Miami-Fort Lauderdale Area",
+              "value": 82
+            },
+            {
+              "label": "Greater Tampa Bay Area",
+              "value": 75
+            },
+            {
+              "label": "Pune/Pimpri-Chinchwad Area, India",
+              "value": 57
+            }
+          ],
+          "jobFunction": [
+            {
+              "label": "Business Development",
+              "value": 475
+            },
+            {
+              "label": "Sales",
+              "value": 302
+            },
+            {
+              "label": "Human Resources",
+              "value": 168
+            },
+            {
+              "label": "Marketing",
+              "value": 158
+            },
+            {
+              "label": "Engineering",
+              "value": 155
+            },
+            {
+              "label": "Operations",
+              "value": 133
+            },
+            {
+              "label": "Healthcare Services",
+              "value": 115
+            },
+            {
+              "label": "Entrepreneurship",
+              "value": 106
+            },
+            {
+              "label": "Information Technology",
+              "value": 69
+            },
+            {
+              "label": "Arts and Design",
+              "value": 48
+            }
+          ],
+          "seniority": [
+            {
+              "label": "Senior",
+              "value": 831
+            },
+            {
+              "label": "Entry",
+              "value": 675
+            },
+            {
+              "label": "CXO",
+              "value": 200
+            },
+            {
+              "label": "Director",
+              "value": 168
+            },
+            {
+              "label": "Partner",
+              "value": 141
+            },
+            {
+              "label": "VP",
+              "value": 130
+            },
+            {
+              "label": "Owner",
+              "value": 93
+            },
+            {
+              "label": "Manager",
+              "value": 65
+            },
+            {
+              "label": "Unpaid",
+              "value": 12
+            }
+          ],
+          "industry": [
+            {
+              "label": "Software Development",
+              "value": 410
+            },
+            {
+              "label": "IT Services and IT Consulting",
+              "value": 311
+            },
+            {
+              "label": "Hospitals and Health Care",
+              "value": 227
+            },
+            {
+              "label": "Technology, Information and Internet",
+              "value": 214
+            },
+            {
+              "label": "Financial Services",
+              "value": 189
+            },
+            {
+              "label": "Staffing and Recruiting",
+              "value": 175
+            },
+            {
+              "label": "Venture Capital and Private Equity Principals",
+              "value": 125
+            },
+            {
+              "label": "Business Consulting and Services",
+              "value": 111
+            },
+            {
+              "label": "Advertising Services",
+              "value": 92
+            },
+            {
+              "label": "Design Services",
+              "value": 83
+            }
+          ],
+          "companySize": [
+            {
+              "label": "51-200",
+              "value": 578
+            },
+            {
+              "label": "11-50",
+              "value": 462
+            },
+            {
+              "label": "2-10",
+              "value": 323
+            },
+            {
+              "label": "201-500",
+              "value": 255
+            },
+            {
+              "label": "10001+",
+              "value": 222
+            },
+            {
+              "label": "1001-5000",
+              "value": 132
+            },
+            {
+              "label": "501-1000",
+              "value": 107
+            },
+            {
+              "label": "5001-10000",
+              "value": 22
+            },
+            {
+              "label": "1",
+              "value": 18
+            }
+          ]
+        }
+      }
+    }
+  }
+}
