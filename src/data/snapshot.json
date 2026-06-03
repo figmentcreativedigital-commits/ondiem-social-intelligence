@@ -1,0 +1,2128 @@
+{
+  "generatedAt": "2026-06-03T15:56:26.542842Z",
+  "periodEnd": "2026-06-02",
+  "periodLabel": "Period ending June 2, 2026",
+  "channels": {
+    "facebook": {
+      "30d": {
+        "kpis": {
+          "totalPosts": 5,
+          "totalViews": 4695,
+          "totalReach": 2954,
+          "totalReactions": 75,
+          "totalComments": 12,
+          "totalShares": 11,
+          "totalEngagements": 128,
+          "totalClicks": 102,
+          "totalLinkClicks": 0,
+          "totalVisits": 196,
+          "totalFollows": 7,
+          "avgEngagementRate": 4.33,
+          "postTypeMix": {
+            "Videos": 3,
+            "Photos": 2
+          }
+        },
+        "series": [
+          {
+            "date": "2026-05-06",
+            "views": 108,
+            "reach": 27,
+            "engagements": 0,
+            "posts": 0
+          },
+          {
+            "date": "2026-05-07",
+            "views": 90,
+            "reach": 69,
+            "engagements": 4,
+            "posts": 0
+          },
+          {
+            "date": "2026-05-08",
+            "views": 391,
+            "reach": 211,
+            "engagements": 15,
+            "posts": 0
+          },
+          {
+            "date": "2026-05-09",
+            "views": 165,
+            "reach": 121,
+            "engagements": 1,
+            "posts": 0
+          },
+          {
+            "date": "2026-05-10",
+            "views": 107,
+            "reach": 63,
+            "engagements": 0,
+            "posts": 0
+          },
+          {
+            "date": "2026-05-11",
+            "views": 113,
+            "reach": 52,
+            "engagements": 0,
+            "posts": 0
+          },
+          {
+            "date": "2026-05-12",
+            "views": 46,
+            "reach": 33,
+            "engagements": 0,
+            "posts": 0
+          },
+          {
+            "date": "2026-05-13",
+            "views": 96,
+            "reach": 47,
+            "engagements": 2,
+            "posts": 0
+          },
+          {
+            "date": "2026-05-14",
+            "views": 751,
+            "reach": 444,
+            "engagements": 35,
+            "posts": 0
+          },
+          {
+            "date": "2026-05-15",
+            "views": 656,
+            "reach": 355,
+            "engagements": 27,
+            "posts": 0
+          },
+          {
+            "date": "2026-05-16",
+            "views": 286,
+            "reach": 149,
+            "engagements": 9,
+            "posts": 0
+          },
+          {
+            "date": "2026-05-17",
+            "views": 168,
+            "reach": 103,
+            "engagements": 1,
+            "posts": 0
+          },
+          {
+            "date": "2026-05-18",
+            "views": 70,
+            "reach": 54,
+            "engagements": 3,
+            "posts": 0
+          },
+          {
+            "date": "2026-05-19",
+            "views": 82,
+            "reach": 49,
+            "engagements": 5,
+            "posts": 0
+          },
+          {
+            "date": "2026-05-20",
+            "views": 83,
+            "reach": 65,
+            "engagements": 3,
+            "posts": 0
+          },
+          {
+            "date": "2026-05-21",
+            "views": 80,
+            "reach": 25,
+            "engagements": 1,
+            "posts": 0
+          },
+          {
+            "date": "2026-05-22",
+            "views": 186,
+            "reach": 112,
+            "engagements": 5,
+            "posts": 0
+          },
+          {
+            "date": "2026-05-23",
+            "views": 149,
+            "reach": 111,
+            "engagements": 5,
+            "posts": 0
+          },
+          {
+            "date": "2026-05-24",
+            "views": 14,
+            "reach": 11,
+            "engagements": 0,
+            "posts": 0
+          },
+          {
+            "date": "2026-05-25",
+            "views": 12,
+            "reach": 9,
+            "engagements": 0,
+            "posts": 0
+          },
+          {
+            "date": "2026-05-26",
+            "views": 24,
+            "reach": 11,
+            "engagements": 0,
+            "posts": 0
+          },
+          {
+            "date": "2026-05-27",
+            "views": 10,
+            "reach": 6,
+            "engagements": 0,
+            "posts": 0
+          },
+          {
+            "date": "2026-05-28",
+            "views": 28,
+            "reach": 9,
+            "engagements": 0,
+            "posts": 0
+          },
+          {
+            "date": "2026-05-29",
+            "views": 334,
+            "reach": 295,
+            "engagements": 5,
+            "posts": 0
+          },
+          {
+            "date": "2026-05-30",
+            "views": 486,
+            "reach": 426,
+            "engagements": 6,
+            "posts": 0
+          },
+          {
+            "date": "2026-05-31",
+            "views": 114,
+            "reach": 60,
+            "engagements": 0,
+            "posts": 0
+          },
+          {
+            "date": "2026-06-01",
+            "views": 35,
+            "reach": 27,
+            "engagements": 1,
+            "posts": 0
+          },
+          {
+            "date": "2026-06-02",
+            "views": 11,
+            "reach": 10,
+            "engagements": 0,
+            "posts": 0
+          }
+        ],
+        "topPosts": [
+          {
+            "date": "2026-05-14",
+            "caption": "We're here at CDA! \ud83e\uddb7 Stop by the Darby booth and see how onDiem is making it easier for dental pros and practices to connect, fill shifts, and stay flexible without the usual stress. Whether you\u2019re looking for coverage or looking for work, we\u2019ll s",
+            "link": "https://www.facebook.com/onDiem1/posts/pfbid02PYFvnU8Kc474wXYmgQ5fmzwPFqEuK9V3s27UfZ7aSYbgMTn9XgvcpRu8EcMBPmzcl",
+            "postType": "Photos",
+            "views": 1705,
+            "reach": 858,
+            "reactions": 53,
+            "comments": 11,
+            "shares": 2,
+            "totalClicks": 84,
+            "engRate": 7.69
+          },
+          {
+            "date": "2026-05-07",
+            "caption": "We\u2019re heading to CDA next week, and we\u2019d love to see you there! Stop by, say hello, and let us scan your badge for a chance to win a set of scrubs from @twiceasniceuniforms \ud83d\udc40\u2728 \ud83d\udccd Anaheim Convention Center \ud83d\uddd3\ufe0f May 14-16 \ud83e\uddb7 @darbydental Booth # 2420 Co",
+            "link": "https://www.facebook.com/onDiem1/posts/pfbid0D2YE4CLjx4nB8ZeJvGMZSHY4MMH8MyahLVpyYdWyAsiFrErjm9MpRQojMHD4Dg6Xl",
+            "postType": "Photos",
+            "views": 1027,
+            "reach": 535,
+            "reactions": 9,
+            "comments": 0,
+            "shares": 9,
+            "totalClicks": 11,
+            "engRate": 3.36
+          },
+          {
+            "date": "2026-05-29",
+            "caption": "If Michelle could go back to graduation day, she'd do one thing differently. \ud83c\udf93\u2728 Here's her advice for new dental hygienists. #dentalhygienist #rdhlife #dentalgrad #dentallife #dentalcommunity",
+            "link": "https://www.facebook.com/reel/1716688992958238/",
+            "postType": "Videos",
+            "views": 414,
+            "reach": 418,
+            "reactions": 4,
+            "comments": 0,
+            "shares": 0,
+            "totalClicks": 2,
+            "engRate": 0.96
+          },
+          {
+            "date": "2026-05-30",
+            "caption": "Looking back, what's one thing Lisa wishes she knew on graduation day? Hear her answer. \ud83c\udf93\u2728 Whether you're a new grad or looking for your next opportunity, onDiem is here to help you find work that works for you. \ud83e\udef6 #DentalHygienist #RDH #RDHlife #d",
+            "link": "https://www.facebook.com/reel/1051297713891563/",
+            "postType": "Videos",
+            "views": 389,
+            "reach": 387,
+            "reactions": 4,
+            "comments": 0,
+            "shares": 0,
+            "totalClicks": 2,
+            "engRate": 1.03
+          },
+          {
+            "date": "2026-05-22",
+            "caption": "Kyle caught up with CDHA President elect Angela to talk about what the onDiem x CDHA partnership means from her perspective. We\u2019re always grateful for our friends at CDHA and the work they do for the hygiene community. \ud83e\ude75\u2728 #CDHA #dentalhygiene #den",
+            "link": "https://www.facebook.com/reel/1515503437286460/",
+            "postType": "Videos",
+            "views": 205,
+            "reach": 195,
+            "reactions": 5,
+            "comments": 1,
+            "shares": 0,
+            "totalClicks": 3,
+            "engRate": 3.08
+          }
+        ]
+      },
+      "7d": {
+        "kpis": {
+          "totalPosts": 2,
+          "totalViews": 1018,
+          "totalReach": 833,
+          "totalReactions": 8,
+          "totalComments": 0,
+          "totalShares": 0,
+          "totalEngagements": 12,
+          "totalClicks": 4,
+          "totalLinkClicks": 0,
+          "totalVisits": 52,
+          "totalFollows": 3,
+          "avgEngagementRate": 1.44,
+          "postTypeMix": {
+            "Videos": 2
+          }
+        },
+        "series": [
+          {
+            "date": "2026-05-27",
+            "views": 10,
+            "reach": 6,
+            "engagements": 0,
+            "posts": 0
+          },
+          {
+            "date": "2026-05-28",
+            "views": 28,
+            "reach": 9,
+            "engagements": 0,
+            "posts": 0
+          },
+          {
+            "date": "2026-05-29",
+            "views": 334,
+            "reach": 295,
+            "engagements": 5,
+            "posts": 0
+          },
+          {
+            "date": "2026-05-30",
+            "views": 486,
+            "reach": 426,
+            "engagements": 6,
+            "posts": 0
+          },
+          {
+            "date": "2026-05-31",
+            "views": 114,
+            "reach": 60,
+            "engagements": 0,
+            "posts": 0
+          },
+          {
+            "date": "2026-06-01",
+            "views": 35,
+            "reach": 27,
+            "engagements": 1,
+            "posts": 0
+          },
+          {
+            "date": "2026-06-02",
+            "views": 11,
+            "reach": 10,
+            "engagements": 0,
+            "posts": 0
+          }
+        ],
+        "topPosts": [
+          {
+            "date": "2026-05-29",
+            "caption": "If Michelle could go back to graduation day, she'd do one thing differently. \ud83c\udf93\u2728 Here's her advice for new dental hygienists. #dentalhygienist #rdhlife #dentalgrad #dentallife #dentalcommunity",
+            "link": "https://www.facebook.com/reel/1716688992958238/",
+            "postType": "Videos",
+            "views": 414,
+            "reach": 418,
+            "reactions": 4,
+            "comments": 0,
+            "shares": 0,
+            "totalClicks": 2,
+            "engRate": 0.96
+          },
+          {
+            "date": "2026-05-30",
+            "caption": "Looking back, what's one thing Lisa wishes she knew on graduation day? Hear her answer. \ud83c\udf93\u2728 Whether you're a new grad or looking for your next opportunity, onDiem is here to help you find work that works for you. \ud83e\udef6 #DentalHygienist #RDH #RDHlife #d",
+            "link": "https://www.facebook.com/reel/1051297713891563/",
+            "postType": "Videos",
+            "views": 389,
+            "reach": 387,
+            "reactions": 4,
+            "comments": 0,
+            "shares": 0,
+            "totalClicks": 2,
+            "engRate": 1.03
+          }
+        ]
+      }
+    },
+    "instagram": {
+      "30d": {
+        "kpis": {
+          "totalFollowers": 3068,
+          "followerChange": 6,
+          "totalViews": 15108,
+          "totalReach": 3402,
+          "totalEngagements": 321,
+          "totalPosts": 13,
+          "totalLikes": 17,
+          "totalComments": 1,
+          "totalSaves": 0,
+          "totalShares": 1,
+          "avgEngagementRate": 2.12,
+          "mediaMix": {
+            "Posts": 71.3,
+            "Reels": 17.5,
+            "Stories": 11.1
+          },
+          "profileVisits": 115,
+          "externalLinkTaps": 4
+        },
+        "series": [
+          {
+            "date": "2026-05-04",
+            "views": 0,
+            "reach": 0,
+            "followers": 0,
+            "engagements": 0
+          },
+          {
+            "date": "2026-05-05",
+            "views": 0,
+            "reach": 0,
+            "followers": 0,
+            "engagements": 0
+          },
+          {
+            "date": "2026-05-06",
+            "views": 0,
+            "reach": 0,
+            "followers": 0,
+            "engagements": 0
+          },
+          {
+            "date": "2026-05-07",
+            "views": 24,
+            "reach": 22,
+            "followers": 0,
+            "engagements": 1
+          },
+          {
+            "date": "2026-05-08",
+            "views": 28,
+            "reach": 20,
+            "followers": 0,
+            "engagements": 1
+          },
+          {
+            "date": "2026-05-09",
+            "views": 0,
+            "reach": 0,
+            "followers": 0,
+            "engagements": 0
+          },
+          {
+            "date": "2026-05-10",
+            "views": 0,
+            "reach": 0,
+            "followers": 0,
+            "engagements": 0
+          },
+          {
+            "date": "2026-05-11",
+            "views": 0,
+            "reach": 0,
+            "followers": 0,
+            "engagements": 0
+          },
+          {
+            "date": "2026-05-12",
+            "views": 0,
+            "reach": 0,
+            "followers": 0,
+            "engagements": 0
+          },
+          {
+            "date": "2026-05-13",
+            "views": 0,
+            "reach": 0,
+            "followers": 0,
+            "engagements": 0
+          },
+          {
+            "date": "2026-05-14",
+            "views": 39,
+            "reach": 31,
+            "followers": 0,
+            "engagements": 3
+          },
+          {
+            "date": "2026-05-15",
+            "views": 289,
+            "reach": 246,
+            "followers": 0,
+            "engagements": 6
+          },
+          {
+            "date": "2026-05-16",
+            "views": 0,
+            "reach": 0,
+            "followers": 0,
+            "engagements": 0
+          },
+          {
+            "date": "2026-05-17",
+            "views": 0,
+            "reach": 0,
+            "followers": 0,
+            "engagements": 0
+          },
+          {
+            "date": "2026-05-18",
+            "views": 0,
+            "reach": 0,
+            "followers": 0,
+            "engagements": 0
+          },
+          {
+            "date": "2026-05-19",
+            "views": 54,
+            "reach": 45,
+            "followers": 0,
+            "engagements": 1
+          },
+          {
+            "date": "2026-05-20",
+            "views": 28,
+            "reach": 24,
+            "followers": 0,
+            "engagements": 1
+          },
+          {
+            "date": "2026-05-21",
+            "views": 0,
+            "reach": 0,
+            "followers": 0,
+            "engagements": 0
+          },
+          {
+            "date": "2026-05-22",
+            "views": 75,
+            "reach": 59,
+            "followers": 0,
+            "engagements": 4
+          },
+          {
+            "date": "2026-05-23",
+            "views": 0,
+            "reach": 0,
+            "followers": 0,
+            "engagements": 0
+          },
+          {
+            "date": "2026-05-24",
+            "views": 0,
+            "reach": 0,
+            "followers": 0,
+            "engagements": 0
+          },
+          {
+            "date": "2026-05-25",
+            "views": 0,
+            "reach": 0,
+            "followers": 0,
+            "engagements": 0
+          },
+          {
+            "date": "2026-05-26",
+            "views": 0,
+            "reach": 0,
+            "followers": 0,
+            "engagements": 0
+          },
+          {
+            "date": "2026-05-27",
+            "views": 0,
+            "reach": 0,
+            "followers": 0,
+            "engagements": 0
+          },
+          {
+            "date": "2026-05-28",
+            "views": 0,
+            "reach": 0,
+            "followers": 0,
+            "engagements": 0
+          },
+          {
+            "date": "2026-05-29",
+            "views": 54,
+            "reach": 48,
+            "followers": 0,
+            "engagements": 0
+          },
+          {
+            "date": "2026-05-30",
+            "views": 0,
+            "reach": 0,
+            "followers": 0,
+            "engagements": 0
+          },
+          {
+            "date": "2026-05-31",
+            "views": 0,
+            "reach": 0,
+            "followers": 0,
+            "engagements": 0
+          },
+          {
+            "date": "2026-06-01",
+            "views": 0,
+            "reach": 0,
+            "followers": 0,
+            "engagements": 0
+          },
+          {
+            "date": "2026-06-02",
+            "views": 0,
+            "reach": 0,
+            "followers": 0,
+            "engagements": 0
+          }
+        ],
+        "topPosts": [
+          {
+            "date": "2026-05-19",
+            "caption": "Sponsor thank-you (Spring Scientific Session)",
+            "mediaType": "image",
+            "views": 7100,
+            "reach": 0,
+            "likes": 0,
+            "comments": 0,
+            "saves": 0,
+            "shares": 0,
+            "engagements": 0,
+            "engRate": 0,
+            "link": null
+          },
+          {
+            "date": "2026-05-21",
+            "caption": "Group photo at event",
+            "mediaType": "image",
+            "views": 4200,
+            "reach": 0,
+            "likes": 0,
+            "comments": 0,
+            "saves": 0,
+            "shares": 0,
+            "engagements": 0,
+            "engRate": 0,
+            "link": null
+          },
+          {
+            "date": "2026-05-22",
+            "caption": "Event coverage (CDA / CDHA)",
+            "mediaType": "video",
+            "views": 1400,
+            "reach": 0,
+            "likes": 0,
+            "comments": 0,
+            "saves": 0,
+            "shares": 0,
+            "engagements": 0,
+            "engRate": 0,
+            "link": null
+          },
+          {
+            "date": "2026-05-07",
+            "caption": "CDA announcement",
+            "mediaType": "image",
+            "views": 1200,
+            "reach": 0,
+            "likes": 0,
+            "comments": 0,
+            "saves": 0,
+            "shares": 0,
+            "engagements": 0,
+            "engRate": 0,
+            "link": null
+          }
+        ],
+        "audience": {
+          "topCities": [
+            {
+              "label": "New York",
+              "value": 2.1
+            },
+            {
+              "label": "Los Angeles",
+              "value": 1.5
+            },
+            {
+              "label": "Phoenix",
+              "value": 0.8
+            },
+            {
+              "label": "Houston",
+              "value": 0.7
+            },
+            {
+              "label": "Chicago",
+              "value": 0.7
+            }
+          ],
+          "ageBreakdown": [
+            {
+              "range": "18-24",
+              "pct": 2.6
+            },
+            {
+              "range": "25-34",
+              "pct": 27.2
+            },
+            {
+              "range": "35-44",
+              "pct": 41.3
+            },
+            {
+              "range": "45-54",
+              "pct": 19.0
+            },
+            {
+              "range": "55-64",
+              "pct": 7.8
+            },
+            {
+              "range": "65+",
+              "pct": 2.0
+            }
+          ],
+          "genderSplit": {
+            "women": 92.2,
+            "men": 7.8
+          }
+        }
+      },
+      "7d": {
+        "kpis": {
+          "totalFollowers": 3068,
+          "followerChange": 1,
+          "totalViews": 3525,
+          "totalReach": 793,
+          "totalEngagements": 74,
+          "totalPosts": 1,
+          "totalLikes": 0,
+          "totalComments": 0,
+          "totalSaves": 0,
+          "totalShares": 0,
+          "avgEngagementRate": 2.1,
+          "mediaMix": {
+            "Posts": 71.3,
+            "Reels": 17.5,
+            "Stories": 11.1
+          },
+          "profileVisits": 26,
+          "externalLinkTaps": 0
+        },
+        "series": [
+          {
+            "date": "2026-05-27",
+            "views": 0,
+            "reach": 0,
+            "followers": 0,
+            "engagements": 0
+          },
+          {
+            "date": "2026-05-28",
+            "views": 0,
+            "reach": 0,
+            "followers": 0,
+            "engagements": 0
+          },
+          {
+            "date": "2026-05-29",
+            "views": 54,
+            "reach": 48,
+            "followers": 0,
+            "engagements": 0
+          },
+          {
+            "date": "2026-05-30",
+            "views": 0,
+            "reach": 0,
+            "followers": 0,
+            "engagements": 0
+          },
+          {
+            "date": "2026-05-31",
+            "views": 0,
+            "reach": 0,
+            "followers": 0,
+            "engagements": 0
+          },
+          {
+            "date": "2026-06-01",
+            "views": 0,
+            "reach": 0,
+            "followers": 0,
+            "engagements": 0
+          },
+          {
+            "date": "2026-06-02",
+            "views": 0,
+            "reach": 0,
+            "followers": 0,
+            "engagements": 0
+          }
+        ],
+        "topPosts": [],
+        "audience": {
+          "topCities": [
+            {
+              "label": "New York",
+              "value": 2.1
+            },
+            {
+              "label": "Los Angeles",
+              "value": 1.5
+            },
+            {
+              "label": "Phoenix",
+              "value": 0.8
+            },
+            {
+              "label": "Houston",
+              "value": 0.7
+            },
+            {
+              "label": "Chicago",
+              "value": 0.7
+            }
+          ],
+          "ageBreakdown": [
+            {
+              "range": "18-24",
+              "pct": 2.6
+            },
+            {
+              "range": "25-34",
+              "pct": 27.2
+            },
+            {
+              "range": "35-44",
+              "pct": 41.3
+            },
+            {
+              "range": "45-54",
+              "pct": 19.0
+            },
+            {
+              "range": "55-64",
+              "pct": 7.8
+            },
+            {
+              "range": "65+",
+              "pct": 2.0
+            }
+          ],
+          "genderSplit": {
+            "women": 92.2,
+            "men": 7.8
+          }
+        }
+      }
+    },
+    "linkedin": {
+      "30d": {
+        "kpis": {
+          "newFollowers": 8,
+          "pageViews": 192,
+          "uniqueVisitors": 77,
+          "mobileShare": 26.6,
+          "impressions": 1374,
+          "clicks": 150,
+          "reactions": 33,
+          "comments": 1,
+          "reposts": 0,
+          "engagements": 34,
+          "engagementRate": 2.47,
+          "postCount": 8
+        },
+        "series": [
+          {
+            "date": "2026-05-03",
+            "pageViews": 8,
+            "uniqueVisitors": 3,
+            "impressions": 14,
+            "engagements": 0,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-05-04",
+            "pageViews": 8,
+            "uniqueVisitors": 5,
+            "impressions": 19,
+            "engagements": 0,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-05-05",
+            "pageViews": 4,
+            "uniqueVisitors": 3,
+            "impressions": 25,
+            "engagements": 2,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-05-06",
+            "pageViews": 0,
+            "uniqueVisitors": 0,
+            "impressions": 12,
+            "engagements": 1,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-05-07",
+            "pageViews": 3,
+            "uniqueVisitors": 2,
+            "impressions": 108,
+            "engagements": 3,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-05-08",
+            "pageViews": 18,
+            "uniqueVisitors": 8,
+            "impressions": 73,
+            "engagements": 4,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-05-09",
+            "pageViews": 0,
+            "uniqueVisitors": 0,
+            "impressions": 24,
+            "engagements": 0,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-05-10",
+            "pageViews": 1,
+            "uniqueVisitors": 1,
+            "impressions": 28,
+            "engagements": 2,
+            "newFollowers": 1
+          },
+          {
+            "date": "2026-05-11",
+            "pageViews": 1,
+            "uniqueVisitors": 1,
+            "impressions": 18,
+            "engagements": 1,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-05-12",
+            "pageViews": 14,
+            "uniqueVisitors": 4,
+            "impressions": 109,
+            "engagements": 0,
+            "newFollowers": 1
+          },
+          {
+            "date": "2026-05-13",
+            "pageViews": 12,
+            "uniqueVisitors": 5,
+            "impressions": 76,
+            "engagements": 3,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-05-14",
+            "pageViews": 7,
+            "uniqueVisitors": 4,
+            "impressions": 89,
+            "engagements": 1,
+            "newFollowers": 2
+          },
+          {
+            "date": "2026-05-15",
+            "pageViews": 1,
+            "uniqueVisitors": 1,
+            "impressions": 96,
+            "engagements": 6,
+            "newFollowers": 1
+          },
+          {
+            "date": "2026-05-16",
+            "pageViews": 8,
+            "uniqueVisitors": 3,
+            "impressions": 19,
+            "engagements": 1,
+            "newFollowers": -1
+          },
+          {
+            "date": "2026-05-17",
+            "pageViews": 0,
+            "uniqueVisitors": 0,
+            "impressions": 29,
+            "engagements": 0,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-05-18",
+            "pageViews": 34,
+            "uniqueVisitors": 5,
+            "impressions": 74,
+            "engagements": 2,
+            "newFollowers": 1
+          },
+          {
+            "date": "2026-05-19",
+            "pageViews": 8,
+            "uniqueVisitors": 6,
+            "impressions": 37,
+            "engagements": 0,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-05-20",
+            "pageViews": 6,
+            "uniqueVisitors": 1,
+            "impressions": 21,
+            "engagements": 0,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-05-21",
+            "pageViews": 10,
+            "uniqueVisitors": 2,
+            "impressions": 39,
+            "engagements": 0,
+            "newFollowers": 1
+          },
+          {
+            "date": "2026-05-22",
+            "pageViews": 11,
+            "uniqueVisitors": 3,
+            "impressions": 100,
+            "engagements": 3,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-05-23",
+            "pageViews": 1,
+            "uniqueVisitors": 1,
+            "impressions": 27,
+            "engagements": 1,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-05-24",
+            "pageViews": 1,
+            "uniqueVisitors": 1,
+            "impressions": 16,
+            "engagements": 0,
+            "newFollowers": -1
+          },
+          {
+            "date": "2026-05-25",
+            "pageViews": 4,
+            "uniqueVisitors": 3,
+            "impressions": 11,
+            "engagements": 0,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-05-26",
+            "pageViews": 14,
+            "uniqueVisitors": 5,
+            "impressions": 97,
+            "engagements": 1,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-05-27",
+            "pageViews": 1,
+            "uniqueVisitors": 1,
+            "impressions": 17,
+            "engagements": 1,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-05-28",
+            "pageViews": 1,
+            "uniqueVisitors": 1,
+            "impressions": 21,
+            "engagements": 0,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-05-29",
+            "pageViews": 7,
+            "uniqueVisitors": 3,
+            "impressions": 65,
+            "engagements": 0,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-05-30",
+            "pageViews": 0,
+            "uniqueVisitors": 0,
+            "impressions": 46,
+            "engagements": 1,
+            "newFollowers": 1
+          },
+          {
+            "date": "2026-05-31",
+            "pageViews": 4,
+            "uniqueVisitors": 3,
+            "impressions": 35,
+            "engagements": 0,
+            "newFollowers": 1
+          },
+          {
+            "date": "2026-06-01",
+            "pageViews": 5,
+            "uniqueVisitors": 2,
+            "impressions": 29,
+            "engagements": 1,
+            "newFollowers": 1
+          }
+        ],
+        "topPosts": [
+          {
+            "date": "2026-05-08",
+            "caption": "New onDiem updates are here, with smarter features and improvements designed to make work simpler, smoother, and more efficient for dental professionals. \u27a1\ufe0f Swipe to see what\u2019s new! #dentalstaffin",
+            "link": "https://www.linkedin.com/feed/update/urn:li:activity:7458591578794754048",
+            "impressions": 95,
+            "clicks": 31,
+            "likes": 3,
+            "comments": 0,
+            "reposts": 0,
+            "engRate": 0.35789474844932556,
+            "postType": "Organic"
+          },
+          {
+            "date": "2026-05-21",
+            "caption": "Still thinking about CDA and the CDHA Spring Scientific Session! \ud83e\uddb7\u2060 \u2060 It was great meeting so many hygienists, students, and dental professionals throughout the event, and connecting on what flexibili",
+            "link": "https://www.linkedin.com/feed/update/urn:li:activity:7463349334097526784",
+            "impressions": 91,
+            "clicks": 26,
+            "likes": 0,
+            "comments": 0,
+            "reposts": 0,
+            "engRate": 0.2857142984867096,
+            "postType": "Organic"
+          },
+          {
+            "date": "2026-05-14",
+            "caption": "We're here at CDA!\ud83e\uddb7 Stop by the Darby booth and see how onDiem is making it easier for dental pros and practices to connect, fill shifts, and stay flexible without the usual stress. Whether you\u2019re",
+            "link": "https://www.linkedin.com/feed/update/urn:li:activity:7460809629699084288",
+            "impressions": 191,
+            "clicks": 7,
+            "likes": 9,
+            "comments": 1,
+            "reposts": 2,
+            "engRate": 0.09947644174098969,
+            "postType": "Organic"
+          },
+          {
+            "date": "2026-05-22",
+            "caption": "Kyle caught up with CDHA President elect Angela to talk about what the onDiem x CDHA partnership means from her perspective. We\u2019re always grateful for our friends at California Dental Hygienists' As",
+            "link": "https://www.linkedin.com/feed/update/urn:li:activity:7463648009390592000",
+            "impressions": 118,
+            "clicks": 5,
+            "likes": 6,
+            "comments": 0,
+            "reposts": 0,
+            "engRate": 0.09322033822536469,
+            "postType": "Organic"
+          },
+          {
+            "date": "2026-05-07",
+            "caption": "We\u2019re heading to CDA next week, and we\u2019d love to see you there! Stop by, say hello, and let us scan your badge for a chance to win a set of scrubs from Twice as Nice Uniforms \ud83d\udc40\u2728 \ud83d\udccdAnaheim Convention",
+            "link": "https://www.linkedin.com/feed/update/urn:li:activity:7458206537510014976",
+            "impressions": 186,
+            "clicks": 2,
+            "likes": 7,
+            "comments": 0,
+            "reposts": 1,
+            "engRate": 0.05376344174146652,
+            "postType": "Organic"
+          },
+          {
+            "date": "2026-05-12",
+            "caption": "Heading to CDA this week? \ud83e\uddb7 Stop by the Darby booth, let us scan your badge, and you'll be entered to win a pair of black scrubs from Twice as Nice Uniforms. We can't wait to see you there! \ud83d\udccdAn",
+            "link": "https://www.linkedin.com/feed/update/urn:li:activity:7460000786471849984",
+            "impressions": 276,
+            "clicks": 4,
+            "likes": 7,
+            "comments": 0,
+            "reposts": 2,
+            "engRate": 0.047101449221372604,
+            "postType": "Organic"
+          },
+          {
+            "date": "2026-05-29",
+            "caption": "If Michelle Strange could go back to graduation day, she'd do one thing differently. \ud83c\udf93\u2728 Here's her advice for new dental hygienists. #DentalHygienist #RDH #DentalHygiene #NewGradRDH #DentalCareer #o",
+            "link": "https://www.linkedin.com/feed/update/urn:li:activity:7466228674497871872",
+            "impressions": 111,
+            "clicks": 3,
+            "likes": 2,
+            "comments": 0,
+            "reposts": 0,
+            "engRate": 0.045045044273138046,
+            "postType": "Organic"
+          },
+          {
+            "date": "2026-05-30",
+            "caption": "Looking back, what's one thing Lisa wishes she knew on graduation day? Hear her answer. \ud83c\udf93\u2728 Whether you're a new grad or looking for your next opportunity, onDiem is here to help you find work that w",
+            "link": "https://www.linkedin.com/feed/update/urn:li:activity:7466488610909847554",
+            "impressions": 46,
+            "clicks": 0,
+            "likes": 2,
+            "comments": 0,
+            "reposts": 0,
+            "engRate": 0.043478261679410934,
+            "postType": "Organic"
+          }
+        ],
+        "pageBreakdown": {
+          "overview": 95,
+          "jobs": 16,
+          "life": 0
+        },
+        "deviceSplit": {
+          "desktop": 141,
+          "mobile": 51
+        },
+        "followerDemographics": {
+          "location": [
+            {
+              "label": "New York City Metropolitan Area",
+              "value": 186
+            },
+            {
+              "label": "San Francisco Bay Area",
+              "value": 103
+            },
+            {
+              "label": "Dallas-Fort Worth Metroplex",
+              "value": 98
+            },
+            {
+              "label": "Los Angeles Metropolitan Area",
+              "value": 84
+            },
+            {
+              "label": "Greater Phoenix Area",
+              "value": 69
+            },
+            {
+              "label": "Greater Chicago Area",
+              "value": 67
+            },
+            {
+              "label": "Washington DC-Baltimore Area",
+              "value": 65
+            },
+            {
+              "label": "Portland, Oregon Metropolitan Area",
+              "value": 65
+            },
+            {
+              "label": "Greater Seattle Area",
+              "value": 63
+            },
+            {
+              "label": "Atlanta Metropolitan Area",
+              "value": 61
+            }
+          ],
+          "jobFunction": [
+            {
+              "label": "Engineering",
+              "value": 459
+            },
+            {
+              "label": "Healthcare Services",
+              "value": 270
+            },
+            {
+              "label": "Information Technology",
+              "value": 229
+            },
+            {
+              "label": "Business Development",
+              "value": 202
+            },
+            {
+              "label": "Sales",
+              "value": 174
+            },
+            {
+              "label": "Operations",
+              "value": 70
+            },
+            {
+              "label": "Human Resources",
+              "value": 47
+            },
+            {
+              "label": "Accounting",
+              "value": 46
+            },
+            {
+              "label": "Education",
+              "value": 41
+            },
+            {
+              "label": "Research",
+              "value": 37
+            }
+          ],
+          "seniority": [
+            {
+              "label": "Entry",
+              "value": 920
+            },
+            {
+              "label": "Senior",
+              "value": 551
+            },
+            {
+              "label": "Director",
+              "value": 114
+            },
+            {
+              "label": "Owner",
+              "value": 68
+            },
+            {
+              "label": "CXO",
+              "value": 66
+            },
+            {
+              "label": "Manager",
+              "value": 64
+            },
+            {
+              "label": "VP",
+              "value": 51
+            },
+            {
+              "label": "Training",
+              "value": 13
+            },
+            {
+              "label": "Partner",
+              "value": 12
+            },
+            {
+              "label": "Unpaid",
+              "value": 6
+            }
+          ],
+          "industry": [
+            {
+              "label": "Software Development",
+              "value": 232
+            },
+            {
+              "label": "IT Services and IT Consulting",
+              "value": 141
+            },
+            {
+              "label": "Hospitals and Health Care",
+              "value": 139
+            },
+            {
+              "label": "Medical Equipment Manufacturing",
+              "value": 135
+            },
+            {
+              "label": "Dentists",
+              "value": 122
+            },
+            {
+              "label": "Temporary Help Services",
+              "value": 86
+            },
+            {
+              "label": "Medical Practices",
+              "value": 69
+            },
+            {
+              "label": "Higher Education",
+              "value": 65
+            },
+            {
+              "label": "Financial Services",
+              "value": 55
+            },
+            {
+              "label": "Technology, Information and Internet",
+              "value": 49
+            }
+          ],
+          "companySize": [
+            {
+              "label": "10001+",
+              "value": 403
+            },
+            {
+              "label": "51-200",
+              "value": 258
+            },
+            {
+              "label": "11-50",
+              "value": 240
+            },
+            {
+              "label": "1001-5000",
+              "value": 193
+            },
+            {
+              "label": "2-10",
+              "value": 185
+            },
+            {
+              "label": "201-500",
+              "value": 185
+            },
+            {
+              "label": "501-1000",
+              "value": 99
+            },
+            {
+              "label": "5001-10000",
+              "value": 74
+            },
+            {
+              "label": "1",
+              "value": 28
+            }
+          ]
+        },
+        "visitorDemographics": {
+          "location": [
+            {
+              "label": "Austin, Texas Metropolitan Area",
+              "value": 38
+            },
+            {
+              "label": "Portland, Oregon Metropolitan Area",
+              "value": 19
+            },
+            {
+              "label": "Los Angeles Metropolitan Area",
+              "value": 18
+            },
+            {
+              "label": "New York City Metropolitan Area",
+              "value": 13
+            },
+            {
+              "label": "Dallas-Fort Worth Metroplex",
+              "value": 12
+            },
+            {
+              "label": "Kropyvnytskyi, Ukraine",
+              "value": 11
+            },
+            {
+              "label": "San Francisco Bay Area",
+              "value": 10
+            },
+            {
+              "label": "Greater Surat Area, India",
+              "value": 10
+            },
+            {
+              "label": "Charlotte Metro",
+              "value": 8
+            },
+            {
+              "label": "Miami-Fort Lauderdale Area",
+              "value": 8
+            }
+          ],
+          "jobFunction": [
+            {
+              "label": "Engineering",
+              "value": 41
+            },
+            {
+              "label": "Business Development",
+              "value": 30
+            },
+            {
+              "label": "Sales",
+              "value": 21
+            },
+            {
+              "label": "Healthcare Services",
+              "value": 17
+            },
+            {
+              "label": "Media and Communication",
+              "value": 15
+            },
+            {
+              "label": "Human Resources",
+              "value": 13
+            },
+            {
+              "label": "Operations",
+              "value": 6
+            },
+            {
+              "label": "Information Technology",
+              "value": 6
+            },
+            {
+              "label": "Customer Success and Support",
+              "value": 6
+            },
+            {
+              "label": "Marketing",
+              "value": 5
+            }
+          ],
+          "seniority": [
+            {
+              "label": "Entry",
+              "value": 44
+            },
+            {
+              "label": "Senior",
+              "value": 44
+            },
+            {
+              "label": "Manager",
+              "value": 42
+            },
+            {
+              "label": "CXO",
+              "value": 19
+            },
+            {
+              "label": "Owner",
+              "value": 16
+            },
+            {
+              "label": "Unpaid",
+              "value": 6
+            },
+            {
+              "label": "Director",
+              "value": 6
+            },
+            {
+              "label": "Partner",
+              "value": 5
+            },
+            {
+              "label": "VP",
+              "value": 3
+            }
+          ],
+          "industry": [
+            {
+              "label": "Financial Services",
+              "value": 39
+            },
+            {
+              "label": "IT Services and IT Consulting",
+              "value": 28
+            },
+            {
+              "label": "Software Development",
+              "value": 24
+            },
+            {
+              "label": "Hospitals and Health Care",
+              "value": 23
+            },
+            {
+              "label": "Technology, Information and Internet",
+              "value": 15
+            },
+            {
+              "label": "Staffing and Recruiting",
+              "value": 12
+            }
+          ],
+          "companySize": [
+            {
+              "label": "1001-5000",
+              "value": 50
+            },
+            {
+              "label": "51-200",
+              "value": 33
+            },
+            {
+              "label": "2-10",
+              "value": 25
+            },
+            {
+              "label": "11-50",
+              "value": 22
+            },
+            {
+              "label": "201-500",
+              "value": 17
+            },
+            {
+              "label": "10001+",
+              "value": 16
+            },
+            {
+              "label": "1",
+              "value": 4
+            },
+            {
+              "label": "5001-10000",
+              "value": 4
+            }
+          ]
+        }
+      },
+      "7d": {
+        "kpis": {
+          "newFollowers": 3,
+          "pageViews": 32,
+          "uniqueVisitors": 15,
+          "mobileShare": 46.9,
+          "impressions": 310,
+          "clicks": 30,
+          "reactions": 4,
+          "comments": 0,
+          "reposts": 0,
+          "engagements": 4,
+          "engagementRate": 1.29,
+          "postCount": 2
+        },
+        "series": [
+          {
+            "date": "2026-05-26",
+            "pageViews": 14,
+            "uniqueVisitors": 5,
+            "impressions": 97,
+            "engagements": 1,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-05-27",
+            "pageViews": 1,
+            "uniqueVisitors": 1,
+            "impressions": 17,
+            "engagements": 1,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-05-28",
+            "pageViews": 1,
+            "uniqueVisitors": 1,
+            "impressions": 21,
+            "engagements": 0,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-05-29",
+            "pageViews": 7,
+            "uniqueVisitors": 3,
+            "impressions": 65,
+            "engagements": 0,
+            "newFollowers": 0
+          },
+          {
+            "date": "2026-05-30",
+            "pageViews": 0,
+            "uniqueVisitors": 0,
+            "impressions": 46,
+            "engagements": 1,
+            "newFollowers": 1
+          },
+          {
+            "date": "2026-05-31",
+            "pageViews": 4,
+            "uniqueVisitors": 3,
+            "impressions": 35,
+            "engagements": 0,
+            "newFollowers": 1
+          },
+          {
+            "date": "2026-06-01",
+            "pageViews": 5,
+            "uniqueVisitors": 2,
+            "impressions": 29,
+            "engagements": 1,
+            "newFollowers": 1
+          }
+        ],
+        "topPosts": [
+          {
+            "date": "2026-05-29",
+            "caption": "If Michelle Strange could go back to graduation day, she'd do one thing differently. \ud83c\udf93\u2728 Here's her advice for new dental hygienists. #DentalHygienist #RDH #DentalHygiene #NewGradRDH #DentalCareer #o",
+            "link": "https://www.linkedin.com/feed/update/urn:li:activity:7466228674497871872",
+            "impressions": 111,
+            "clicks": 3,
+            "likes": 2,
+            "comments": 0,
+            "reposts": 0,
+            "engRate": 0.045045044273138046,
+            "postType": "Organic"
+          },
+          {
+            "date": "2026-05-30",
+            "caption": "Looking back, what's one thing Lisa wishes she knew on graduation day? Hear her answer. \ud83c\udf93\u2728 Whether you're a new grad or looking for your next opportunity, onDiem is here to help you find work that w",
+            "link": "https://www.linkedin.com/feed/update/urn:li:activity:7466488610909847554",
+            "impressions": 46,
+            "clicks": 0,
+            "likes": 2,
+            "comments": 0,
+            "reposts": 0,
+            "engRate": 0.043478261679410934,
+            "postType": "Organic"
+          }
+        ],
+        "pageBreakdown": {
+          "overview": 20,
+          "jobs": 3,
+          "life": 0
+        },
+        "deviceSplit": {
+          "desktop": 17,
+          "mobile": 15
+        },
+        "followerDemographics": {
+          "location": [
+            {
+              "label": "New York City Metropolitan Area",
+              "value": 186
+            },
+            {
+              "label": "San Francisco Bay Area",
+              "value": 103
+            },
+            {
+              "label": "Dallas-Fort Worth Metroplex",
+              "value": 98
+            },
+            {
+              "label": "Los Angeles Metropolitan Area",
+              "value": 84
+            },
+            {
+              "label": "Greater Phoenix Area",
+              "value": 69
+            },
+            {
+              "label": "Greater Chicago Area",
+              "value": 67
+            },
+            {
+              "label": "Washington DC-Baltimore Area",
+              "value": 65
+            },
+            {
+              "label": "Portland, Oregon Metropolitan Area",
+              "value": 65
+            },
+            {
+              "label": "Greater Seattle Area",
+              "value": 63
+            },
+            {
+              "label": "Atlanta Metropolitan Area",
+              "value": 61
+            }
+          ],
+          "jobFunction": [
+            {
+              "label": "Engineering",
+              "value": 459
+            },
+            {
+              "label": "Healthcare Services",
+              "value": 270
+            },
+            {
+              "label": "Information Technology",
+              "value": 229
+            },
+            {
+              "label": "Business Development",
+              "value": 202
+            },
+            {
+              "label": "Sales",
+              "value": 174
+            },
+            {
+              "label": "Operations",
+              "value": 70
+            },
+            {
+              "label": "Human Resources",
+              "value": 47
+            },
+            {
+              "label": "Accounting",
+              "value": 46
+            },
+            {
+              "label": "Education",
+              "value": 41
+            },
+            {
+              "label": "Research",
+              "value": 37
+            }
+          ],
+          "seniority": [
+            {
+              "label": "Entry",
+              "value": 920
+            },
+            {
+              "label": "Senior",
+              "value": 551
+            },
+            {
+              "label": "Director",
+              "value": 114
+            },
+            {
+              "label": "Owner",
+              "value": 68
+            },
+            {
+              "label": "CXO",
+              "value": 66
+            },
+            {
+              "label": "Manager",
+              "value": 64
+            },
+            {
+              "label": "VP",
+              "value": 51
+            },
+            {
+              "label": "Training",
+              "value": 13
+            },
+            {
+              "label": "Partner",
+              "value": 12
+            },
+            {
+              "label": "Unpaid",
+              "value": 6
+            }
+          ],
+          "industry": [
+            {
+              "label": "Software Development",
+              "value": 232
+            },
+            {
+              "label": "IT Services and IT Consulting",
+              "value": 141
+            },
+            {
+              "label": "Hospitals and Health Care",
+              "value": 139
+            },
+            {
+              "label": "Medical Equipment Manufacturing",
+              "value": 135
+            },
+            {
+              "label": "Dentists",
+              "value": 122
+            },
+            {
+              "label": "Temporary Help Services",
+              "value": 86
+            },
+            {
+              "label": "Medical Practices",
+              "value": 69
+            },
+            {
+              "label": "Higher Education",
+              "value": 65
+            },
+            {
+              "label": "Financial Services",
+              "value": 55
+            },
+            {
+              "label": "Technology, Information and Internet",
+              "value": 49
+            }
+          ],
+          "companySize": [
+            {
+              "label": "10001+",
+              "value": 403
+            },
+            {
+              "label": "51-200",
+              "value": 258
+            },
+            {
+              "label": "11-50",
+              "value": 240
+            },
+            {
+              "label": "1001-5000",
+              "value": 193
+            },
+            {
+              "label": "2-10",
+              "value": 185
+            },
+            {
+              "label": "201-500",
+              "value": 185
+            },
+            {
+              "label": "501-1000",
+              "value": 99
+            },
+            {
+              "label": "5001-10000",
+              "value": 74
+            },
+            {
+              "label": "1",
+              "value": 28
+            }
+          ]
+        },
+        "visitorDemographics": {
+          "location": [
+            {
+              "label": "Austin, Texas Metropolitan Area",
+              "value": 38
+            },
+            {
+              "label": "Portland, Oregon Metropolitan Area",
+              "value": 19
+            },
+            {
+              "label": "Los Angeles Metropolitan Area",
+              "value": 18
+            },
+            {
+              "label": "New York City Metropolitan Area",
+              "value": 13
+            },
+            {
+              "label": "Dallas-Fort Worth Metroplex",
+              "value": 12
+            },
+            {
+              "label": "Kropyvnytskyi, Ukraine",
+              "value": 11
+            },
+            {
+              "label": "San Francisco Bay Area",
+              "value": 10
+            },
+            {
+              "label": "Greater Surat Area, India",
+              "value": 10
+            },
+            {
+              "label": "Charlotte Metro",
+              "value": 8
+            },
+            {
+              "label": "Miami-Fort Lauderdale Area",
+              "value": 8
+            }
+          ],
+          "jobFunction": [
+            {
+              "label": "Engineering",
+              "value": 41
+            },
+            {
+              "label": "Business Development",
+              "value": 30
+            },
+            {
+              "label": "Sales",
+              "value": 21
+            },
+            {
+              "label": "Healthcare Services",
+              "value": 17
+            },
+            {
+              "label": "Media and Communication",
+              "value": 15
+            },
+            {
+              "label": "Human Resources",
+              "value": 13
+            },
+            {
+              "label": "Operations",
+              "value": 6
+            },
+            {
+              "label": "Information Technology",
+              "value": 6
+            },
+            {
+              "label": "Customer Success and Support",
+              "value": 6
+            },
+            {
+              "label": "Marketing",
+              "value": 5
+            }
+          ],
+          "seniority": [
+            {
+              "label": "Entry",
+              "value": 44
+            },
+            {
+              "label": "Senior",
+              "value": 44
+            },
+            {
+              "label": "Manager",
+              "value": 42
+            },
+            {
+              "label": "CXO",
+              "value": 19
+            },
+            {
+              "label": "Owner",
+              "value": 16
+            },
+            {
+              "label": "Unpaid",
+              "value": 6
+            },
+            {
+              "label": "Director",
+              "value": 6
+            },
+            {
+              "label": "Partner",
+              "value": 5
+            },
+            {
+              "label": "VP",
+              "value": 3
+            }
+          ],
+          "industry": [
+            {
+              "label": "Financial Services",
+              "value": 39
+            },
+            {
+              "label": "IT Services and IT Consulting",
+              "value": 28
+            },
+            {
+              "label": "Software Development",
+              "value": 24
+            },
+            {
+              "label": "Hospitals and Health Care",
+              "value": 23
+            },
+            {
+              "label": "Technology, Information and Internet",
+              "value": 15
+            },
+            {
+              "label": "Staffing and Recruiting",
+              "value": 12
+            }
+          ],
+          "companySize": [
+            {
+              "label": "1001-5000",
+              "value": 50
+            },
+            {
+              "label": "51-200",
+              "value": 33
+            },
+            {
+              "label": "2-10",
+              "value": 25
+            },
+            {
+              "label": "11-50",
+              "value": 22
+            },
+            {
+              "label": "201-500",
+              "value": 17
+            },
+            {
+              "label": "10001+",
+              "value": 16
+            },
+            {
+              "label": "1",
+              "value": 4
+            },
+            {
+              "label": "5001-10000",
+              "value": 4
+            }
+          ]
+        }
+      }
+    }
+  }
+}

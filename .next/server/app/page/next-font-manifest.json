@@ -1,0 +1,14 @@
+{
+  "pages": {},
+  "app": {
+    "[project]/ondiem-social-intelligence/src/app/page": [
+      "static/media/9e721575c9fb5733-s.p.16_pdvgx3~n79.woff2",
+      "static/media/9dd4508f3c7f32bd-s.p.0936hhyvcam-f.woff2",
+      "static/media/b6993172ae5d8694-s.p.0x~z9fa-avzrj.woff2",
+      "static/media/f0bd9438cd939e22-s.p.02_9ye3dm1q-h.woff2",
+      "static/media/e8f2fbee2754df70-s.p.0fzkl03jw-sdz.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pagesUsingSizeAdjust": false
+}

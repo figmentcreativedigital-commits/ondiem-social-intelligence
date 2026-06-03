@@ -1,0 +1,3 @@
+module.exports=[67209,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(96337);a.n(d("[project]/ondiem-social-intelligence/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},57509,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(96337);a.n(d("[project]/ondiem-social-intelligence/node_modules/next/dist/client/components/builtin/global-error.js"))},65427,a=>{"use strict";a.i(67209);var b=a.i(57509);a.n(b)},19182,a=>{a.n(a.i(65427))}];
+
+//# sourceMappingURL=03zc_next_dist_client_components_builtin_global-error_0r2xm1s.js.map

@@ -1,0 +1,13 @@
+var R=require("../chunks/ssr/[turbopack]_runtime.js")("server/app/page.js")
+R.c("server/chunks/ssr/[root-of-the-server]__08phtfh._.js")
+R.c("server/chunks/ssr/03zc_next_dist_esm_build_templates_app-page_08f-gz0.js")
+R.c("server/chunks/ssr/[root-of-the-server]__1381319._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0kgeu5f._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0axyx.n._.js")
+R.c("server/chunks/ssr/03zc_next_dist_client_components_0owp9k-._.js")
+R.c("server/chunks/ssr/03zc_next_dist_client_components_builtin_forbidden_09jer1h.js")
+R.c("server/chunks/ssr/03zc_next_dist_client_components_builtin_unauthorized_0ljco8a.js")
+R.c("server/chunks/ssr/03zc_next_dist_client_components_builtin_global-error_0r2xm1s.js")
+R.c("server/chunks/ssr/ondiem-social-intelligence__next-internal_server_app_page_actions_0egn5s_.js")
+R.m(43251)
+module.exports=R.m(43251).exports

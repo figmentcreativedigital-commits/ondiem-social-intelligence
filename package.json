@@ -1,0 +1,26 @@
+{
+  "name": "ondiem-social-dashboard",
+  "version": "2.0.0",
+  "description": "OnDiem Social Performance Dashboard — Figment Creative rebuild. Static data, brand-aligned visuals, three-channel + dual-window analytics.",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "rebuild-snapshot": "echo 'Re-run scripts/build_snapshot.py with fresh data exports'"
+  },
+  "dependencies": {
+    "next": "^16.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "recharts": "^2.15.0",
+    "@vercel/analytics": "^1.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.0"
+  }
+}

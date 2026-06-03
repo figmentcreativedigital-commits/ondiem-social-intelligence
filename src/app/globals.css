@@ -1,0 +1,262 @@
+/* ==========================================================================
+   ONDIEM DESIGN SYSTEM — FOUNDATION
+   Faithful to onDiem Brand Guidelines (FY25), authored by Figment Creative.
+   ========================================================================== */
+
+/* ─────────────────────────────────────────────────────────────────────────
+   1. TOKENS
+   ───────────────────────────────────────────────────────────────────────── */
+:root {
+  /* — Brand · Primary — */
+  --ink:           #2A3B58;   /* onDiem Navy — primary copy + logomark */
+  --canvas:        #FFFAF5;   /* Off-white — universal canvas */
+  --canvas-warm:   #FFF5ED;   /* Slight warm shift for layered surfaces */
+  --paper:         #FFFFFF;   /* Pure white card surface */
+
+  /* — Brand · Secondary —
+     Six secondary colors per spec. Note: the PDF mis-prints the green
+     hex as #003A50 (which is navy); the visual sample is a sage-mint,
+     reconstructed here as #7FC9A8. */
+  --teal:          #7FCFD1;
+  --sage:          #7FC9A8;
+  --pink:          #F189B5;
+  --purple:        #D08CE3;
+  --yellow:        #F2D97D;
+  --peach:         #F9B78E;
+
+  /* — Ink tints (10% increments per brand spec) — */
+  --ink-90: rgba(42, 59, 88, .90);
+  --ink-70: rgba(42, 59, 88, .70);
+  --ink-50: rgba(42, 59, 88, .50);
+  --ink-30: rgba(42, 59, 88, .30);
+  --ink-12: rgba(42, 59, 88, .12);
+  --ink-08: rgba(42, 59, 88, .08);
+  --ink-04: rgba(42, 59, 88, .04);
+
+  /* — Paper tints (for use on dark/navy surfaces) — */
+  --paper-70: rgba(255, 250, 245, .70);
+  --paper-50: rgba(255, 250, 245, .50);
+  --paper-30: rgba(255, 250, 245, .30);
+
+  /* — Type families —
+     Tinos is the open-source Times Roman / TeX Gyre Termes equivalent.
+     Montserrat is brand-spec'd as the secondary typeface (page 15). */
+  --font-display: 'Tinos', 'TeX Gyre Termes', 'Times New Roman', Georgia, serif;
+  --font-body:    'Montserrat', system-ui, -apple-system, sans-serif;
+
+  /* — Type scale (fluid where it matters) — */
+  --t-display-xl: clamp(2.25rem, 4.4vw, 3.5rem);   /* hero headline */
+  --t-display-lg: clamp(1.75rem, 3.2vw, 2.5rem);   /* section headline */
+  --t-display-md: clamp(1.375rem, 2.2vw, 1.75rem); /* card title */
+  --t-display-sm: 1.125rem;                         /* small display / 18px */
+  --t-body:       0.875rem;  /* 14px */
+  --t-small:      0.75rem;   /* 12px */
+  --t-eyebrow:    0.6875rem; /* 11px */
+  --t-micro:      0.625rem;  /* 10px */
+
+  /* — Geometry — */
+  --r-pill:    999px;
+  --r-portal:  999px;
+  --r-card:    1.125rem;   /* 18px — matches brand soft-rectangle feel */
+  --r-card-sm: 0.75rem;
+  --r-tag:     0.5rem;
+
+  /* — Elevation — */
+  --shadow-card:        0 2px 20px rgba(42, 59, 88, .06);
+  --shadow-card-hover:  0 8px 32px rgba(42, 59, 88, .12);
+  --shadow-portal:      0 4px 16px rgba(42, 59, 88, .08);
+
+  /* — Motion — */
+  --ease-out:    cubic-bezier(.4, 0, .2, 1);
+  --ease-bounce: cubic-bezier(.34, 1.56, .64, 1);
+  --dur-quick:   .18s;
+  --dur-base:    .28s;
+  --dur-slow:    .6s;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   2. RESET + BASE
+   ───────────────────────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; }
+body {
+  font-family: var(--font-body);
+  font-size: var(--t-body);
+  line-height: 1.6;
+  color: var(--ink);
+  background: var(--canvas);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+button { font-family: inherit; cursor: pointer; }
+img, svg { display: block; max-width: 100%; }
+
+/* Selection picks up the brand teal */
+::selection { background: var(--teal); color: var(--ink); }
+
+/* Reduced-motion respects user preference */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   3. TYPOGRAPHY UTILITIES
+   ───────────────────────────────────────────────────────────────────────── */
+.t-display-xl, h1.t-display {
+  font-family: var(--font-display);
+  font-size: var(--t-display-xl);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.t-display-lg {
+  font-family: var(--font-display);
+  font-size: var(--t-display-lg);
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--ink);
+}
+.t-display-md {
+  font-family: var(--font-display);
+  font-size: var(--t-display-md);
+  font-weight: 700;
+  line-height: 1.15;
+  color: var(--ink);
+}
+.t-display-sm {
+  font-family: var(--font-display);
+  font-size: var(--t-display-sm);
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--ink);
+}
+.t-eyebrow {
+  font-family: var(--font-body);
+  font-size: var(--t-eyebrow);
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-70);
+}
+.t-label {
+  font-family: var(--font-body);
+  font-size: var(--t-micro);
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-50);
+}
+.t-body { font-size: var(--t-body); color: var(--ink-70); line-height: 1.7; }
+.t-num  { font-family: var(--font-display); font-weight: 700; font-feature-settings: "tnum" 1, "lnum" 1; }
+
+/* ─────────────────────────────────────────────────────────────────────────
+   4. SIGNATURE — HEADLINE PILL
+   The most repeatable brand device. Inline highlight applied to a key word
+   inside a serif headline. Uses box-decoration-break so wrapping is graceful.
+   ───────────────────────────────────────────────────────────────────────── */
+.pill {
+  display: inline;
+  padding: 0.04em 0.3em 0.12em;
+  border-radius: 0.22em;
+  background: var(--teal);
+  color: var(--ink);
+  -webkit-box-decoration-break: clone;
+          box-decoration-break: clone;
+}
+.pill--teal   { background: var(--teal); }
+.pill--sage   { background: var(--sage); }
+.pill--pink   { background: var(--pink); }
+.pill--yellow { background: var(--yellow); }
+.pill--peach  { background: var(--peach); }
+.pill--purple { background: var(--purple); }
+
+/* Tag pill — for eyebrow/badge usage (distinct from headline pill). */
+.pill-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.32rem 0.78rem;
+  border-radius: var(--r-pill);
+  font-family: var(--font-body);
+  font-size: var(--t-eyebrow);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  background: var(--ink-08);
+  color: var(--ink);
+}
+.pill-tag--on-ink {
+  background: rgba(127, 207, 209, .18);
+  color: var(--teal);
+  border: 1px solid rgba(127, 207, 209, .32);
+}
+.pill-tag .dot {
+  width: 6px; height: 6px; border-radius: 999px;
+  background: currentColor;
+  animation: pulse 2s var(--ease-out) infinite;
+}
+@keyframes pulse { 0%, 100% { opacity: 1 } 50% { opacity: 0.35 } }
+
+/* ─────────────────────────────────────────────────────────────────────────
+   5. SURFACES
+   ───────────────────────────────────────────────────────────────────────── */
+.card {
+  background: var(--paper);
+  border: 1px solid var(--ink-08);
+  border-radius: var(--r-card);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-card);
+  transition: box-shadow var(--dur-base) var(--ease-out),
+              border-color var(--dur-base) var(--ease-out),
+              transform var(--dur-base) var(--ease-out);
+}
+.card:hover { box-shadow: var(--shadow-card-hover); }
+.card--warm { background: var(--canvas-warm); }
+.card--ink  { background: var(--ink); color: var(--canvas); border-color: transparent; }
+
+/* ─────────────────────────────────────────────────────────────────────────
+   6. SIGNATURE — PORTAL
+   Brand element: a colored solid circle that houses an icon or imagery.
+   Often grouped in flowing clusters connected by hand-drawn navy line work.
+   ───────────────────────────────────────────────────────────────────────── */
+.portal {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--r-portal);
+  flex-shrink: 0;
+  transition: transform var(--dur-base) var(--ease-bounce);
+}
+.portal:hover { transform: scale(1.04); }
+.portal--teal   { background: var(--teal); }
+.portal--sage   { background: var(--sage); }
+.portal--pink   { background: var(--pink); }
+.portal--yellow { background: var(--yellow); }
+.portal--peach  { background: var(--peach); }
+.portal--purple { background: var(--purple); }
+.portal--ink    { background: var(--ink); }
+.portal--paper  { background: var(--paper); border: 1px solid var(--ink-08); }
+.portal > svg   { width: 50%; height: 50%; stroke: var(--ink); fill: none; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; }
+.portal--ink > svg { stroke: var(--canvas); }
+
+/* ─────────────────────────────────────────────────────────────────────────
+   7. ENTRANCE ANIMATIONS (page-level coordination)
+   ───────────────────────────────────────────────────────────────────────── */
+.rise-in     { animation: riseIn .6s var(--ease-out) both; }
+.fade-in     { animation: fadeIn .6s var(--ease-out) both; }
+@keyframes riseIn { from { opacity: 0; transform: translateY(14px) } to { opacity: 1; transform: none } }
+@keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }
+
+/* Stagger helper — apply on a parent with .stagger > * */
+.stagger > *               { animation: riseIn .55s var(--ease-out) both; }
+.stagger > *:nth-child(1)  { animation-delay: 0ms;   }
+.stagger > *:nth-child(2)  { animation-delay: 70ms;  }
+.stagger > *:nth-child(3)  { animation-delay: 140ms; }
+.stagger > *:nth-child(4)  { animation-delay: 210ms; }
+.stagger > *:nth-child(5)  { animation-delay: 280ms; }
+.stagger > *:nth-child(6)  { animation-delay: 350ms; }
