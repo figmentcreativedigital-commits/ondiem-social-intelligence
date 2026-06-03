@@ -62,3 +62,19 @@ export function computeTrend(series: number[]): { dir: 'up' | 'down' | 'flat'; p
   if (Math.abs(pct) < 5) return { dir: 'flat', pct: 0 };
   return { dir: pct > 0 ? 'up' : 'down', pct: Math.abs(pct) };
 }
+
+/**
+ * True period-over-period change vs an explicit prior-period total.
+ * Returns null when no prior value is supplied, so callers can fall back
+ * to the within-window heuristic (computeTrend).
+ */
+export function trendFromPrev(
+  current: number,
+  prev?: number | null,
+): { dir: 'up' | 'down' | 'flat'; pct: number } | null {
+  if (prev === undefined || prev === null) return null;
+  if (prev === 0) return current > 0 ? { dir: 'up', pct: 100 } : { dir: 'flat', pct: 0 };
+  const pct = ((current - prev) / Math.abs(prev)) * 100;
+  if (Math.abs(pct) < 0.5) return { dir: 'flat', pct: 0 };
+  return { dir: pct > 0 ? 'up' : 'down', pct: Math.abs(pct) };
+}

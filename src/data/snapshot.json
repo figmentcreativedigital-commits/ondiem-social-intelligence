@@ -5,6 +5,7 @@
   "channels": {
     "facebook": {
       "30d": {
+        "prev": { "views": 1626, "engagements": 40 },
         "kpis": {
           "totalPosts": 5,
           "totalViews": 4695,
@@ -390,6 +391,7 @@
     },
     "instagram": {
       "30d": {
+        "prev": { "views": 9535, "engagements": 149 },
         "kpis": {
           "totalFollowers": 3068,
           "followerChange": 6,

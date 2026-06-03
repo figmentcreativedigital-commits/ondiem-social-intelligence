@@ -15,7 +15,7 @@ import InsightsPanel from './InsightsPanel';
 import { Icons } from '@/components/brand';
 import type { FacebookWindow, WindowKey } from '@/lib/types';
 import { generateInsights } from '@/lib/insights';
-import { computeTrend, fmtNum } from '@/lib/format';
+import { computeTrend, trendFromPrev, fmtNum } from '@/lib/format';
 
 type Props = {
   data: FacebookWindow;
@@ -25,8 +25,8 @@ type Props = {
 export default function FacebookView({ data, window }: Props) {
   const k = data.kpis;
   const insights = generateInsights('facebook', window, data);
-  const viewsTrend = computeTrend(data.series.map((s) => s.views));
-  const engTrend = computeTrend(data.series.map((s) => s.engagements));
+  const viewsTrend = trendFromPrev(k.totalViews, data.prev?.views) ?? computeTrend(data.series.map((s) => s.views));
+  const engTrend = trendFromPrev(k.totalEngagements, data.prev?.engagements) ?? computeTrend(data.series.map((s) => s.engagements));
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>

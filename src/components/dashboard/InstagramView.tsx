@@ -14,7 +14,7 @@ import InsightsPanel from './InsightsPanel';
 import { Icons } from '@/components/brand';
 import type { InstagramWindow, WindowKey } from '@/lib/types';
 import { generateInsights } from '@/lib/insights';
-import { computeTrend, fmtNum } from '@/lib/format';
+import { computeTrend, trendFromPrev, fmtNum } from '@/lib/format';
 
 type Props = {
   data: InstagramWindow;
@@ -28,7 +28,7 @@ export default function InstagramView({ data, window }: Props) {
   // Trends
   const followerSeries = data.series.filter((s) => s.followers > 0).map((s) => s.followers);
   const followerTrend = computeTrend(followerSeries);
-  const viewsTrend = computeTrend(data.series.map((s) => s.views || 0));
+  const viewsTrend = trendFromPrev(k.totalViews, data.prev?.views) ?? computeTrend(data.series.map((s) => s.views || 0));
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>

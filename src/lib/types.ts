@@ -102,6 +102,7 @@ export type InstagramKpis = {
 
 export type InstagramWindow = {
   kpis: InstagramKpis;
+  prev?: { views?: number; engagements?: number };
   series: Array<{ date: string; followers: number; views: number; reach: number }>;
   topPosts: InstagramPost[];
   reels?: { count: number; totalViews: number; avgEngRate: number };
@@ -156,6 +157,7 @@ export type FacebookKpis = {
 
 export type FacebookWindow = {
   kpis: FacebookKpis;
+  prev?: { views?: number; engagements?: number };
   series: Array<{ date: string; views: number; reach: number; engagements: number; posts: number }>;
   topPosts: FacebookPost[];
   contentFormats?: {
